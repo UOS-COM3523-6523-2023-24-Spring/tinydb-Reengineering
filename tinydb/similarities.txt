@@ -1,0 +1,10649 @@
+Similarities between database.py and middlewares.py (k-tail length: 12):
+===============================
+ontains the 
+.
+"""
+from t
+
+"""
+from ty
+"""
+from typ
+""
+from typi
+"
+from typin
+
+from typing
+from typing 
+rom typing i
+om typing im
+m typing imp
+ typing impo
+typing impor
+yping import
+ping import 
+ import Stor
+import Stora
+mport Storag
+port Storage
+ort Storage
+
+e):
+    """
+
+):
+    """
+ 
+:
+    """
+  
+
+    """
+   
+    """
+    
+   """
+    T
+  """
+    Th
+ """
+    The
+"""
+    The 
+ss of TinyDB
+ TinyDB.
+
+  
+TinyDB.
+
+   
+inyDB.
+
+    
+nyDB.
+
+    T
+yDB.
+
+    Th
+ the storage
+the storage 
+he storage c
+e storage cl
+ storage cla
+storage clas
+torage class
+ing the data
+e class
+    
+ forwarding 
+forwarding a
+ all unknown
+all unknown 
+ operations 
+operations t
+perations to
+erations to 
+ keyword arg
+keyword argu
+eyword argum
+yword argume
+word argumen
+ord argument
+ to the stor
+to the stora
+o the storag
+
+        For
+ and
+       
+and
+        
+ to
+        
+e storage in
+ storage ins
+storage inst
+torage insta
+orage instan
+rage instanc
+age instance
+
+        The
+        The 
+ like this::
+like this::
+
+ike this::
+
+
+ke this::
+
+ 
+e this::
+
+  
+ this::
+
+   
+this::
+
+    
+his::
+
+     
+is::
+
+      
+s::
+
+       
+::
+
+        
+:
+
+         
+
+
+          
+
+           
+            
+e initialize
+.
+    """
+
+ 
+
+    """
+
+  
+    """
+
+   
+   """
+
+    
+  """
+
+    #
+ """
+
+    #:
+"""
+
+    #: 
+""
+
+    #: T
+"
+
+    #: Th
+
+
+    #: The
+
+    #: The 
+    #: The n
+e
+
+    def _
+
+
+    def __
+
+    def __i
+    def __in
+   def __ini
+  def __init
+ def __init_
+def __init__
+ef __init__(
+f __init__(s
+ __init__(se
+__init__(sel
+_init__(self
+init__(self,
+nit__(self, 
+__(self, *ar
+_(self, *arg
+(self, *args
+self, *args,
+elf, *args, 
+lf, *args, *
+f, *args, **
+, *args, **k
+ *args, **kw
+*args, **kwa
+args, **kwar
+rgs, **kwarg
+gs, **kwargs
+s, **kwargs)
+s) -> None:
+
+) -> None:
+ 
+ -> None:
+  
+-> None:
+   
+> None:
+    
+ None:
+     
+None:
+      
+one:
+       
+ne:
+        
+:
+        ""
+
+        """
+        """
+
+       """
+ 
+      """
+  
+     """
+   
+   """
+     
+  """
+      
+ """
+       
+"""
+        
+""
+        C
+"
+        Cr
+
+        Cre
+        Crea
+       Creat
+      Create
+     Create 
+ance of Tiny
+nce of TinyD
+ce of TinyDB
+.
+        ""
+       """
+
+
+      """
+
+ 
+     """
+
+  
+  """
+
+     
+ """
+
+      
+"""
+
+       
+""
+
+        
+"
+
+        s
+lass)
+
+     
+ass)
+
+      
+ss)
+
+       
+s)
+
+        
+)
+
+        #
+
+
+        # 
+
+        # P
+        # Pr
+       # Pre
+      # Prep
+     # Prepa
+    # Prepar
+   # Prepare
+  # Prepare 
+ # Prepare t
+# Prepare th
+ Prepare the
+Prepare the 
+e the storag
+the storage
+
+he storage
+ 
+e storage
+  
+ storage
+   
+storage
+    
+torage
+     
+orage
+      
+rage
+       
+age
+        
+e
+        se
+
+        sel
+        self
+       self.
+      self._
+     self._s
+    self._st
+   self._sto
+  self._stor
+ self._stora
+self._storag
+elf._storage
+storage: Sto
+torage: Stor
+orage: Stora
+rage: Storag
+age: Storage
+ge: Storage 
+e: Storage =
+: Storage = 
+torage = sto
+orage = stor
+rage = stora
+age = storag
+ge = storage
+e = storage(
+ = storage(*
+= storage(*a
+ storage(*ar
+storage(*arg
+torage(*args
+orage(*args,
+rage(*args, 
+age(*args, *
+ge(*args, **
+e(*args, **k
+(*args, **kw
+, **kwargs)
+
+ **kwargs)
+
+
+**kwargs)
+
+ 
+*kwargs)
+
+  
+kwargs)
+
+   
+wargs)
+
+    
+args)
+
+     
+rgs)
+
+      
+gs)
+
+       
+
+
+        se
+(self):
+    
+self):
+     
+elf):
+      
+lf):
+       
+f):
+        
+))
+         
+)
+          
+
+
+        re
+
+        ret
+        retu
+       retur
+      return
+     return 
+e.
+
+        
+.
+
+        I
+ble.
+       
+le.
+        
+ constructor
+constructor
+
+onstructor
+ 
+nstructor
+  
+structor
+   
+tructor
+    
+ructor
+     
+uctor
+      
+ctor
+       
+tor
+        
+
+        if 
+:
+          
+    return s
+   return se
+  return sel
+ return self
+return self.
+self.storage
+
+        # S
+        # St
+       # Sto
+      # Stor
+torage.read(
+orage.read()
+ we need to 
+elf.storage.
+lf.storage.r
+f.storage.re
+.storage.rea
+storage.read
+e by writing
+ by writing 
+      self.s
+     self.st
+    self.sto
+   self.stor
+  self.stora
+ self.storag
+lf.storage.w
+f.storage.wr
+.storage.wri
+storage.writ
+torage.write
+orage.write(
+()
+
+    def 
+
+        # I
+we need to f
+ class
+     
+class
+      
+lass
+       
+ass
+        
+e
+        if
+ = self.stor
+= self.stora
+rage.read()
+
+age.read()
+
+
+ge.read()
+
+ 
+e.read()
+
+  
+.read()
+
+   
+read()
+
+    
+ead()
+
+     
+ad()
+
+      
+d()
+
+       
+()
+
+        
+ is None:
+  
+is None:
+   
+s None:
+    
+e:
+         
+
+        # R
+        # Re
+     # Store
+    # Store 
+et the stora
+t the storag
+he storage i
+ge instance 
+ TinyDB inst
+TinyDB insta
+inyDB instan
+nyDB instanc
+yDB instance
+ instance.
+
+
+
+
+    def cl
+
+    def clo
+    def clos
+   def close
+  def close(
+ def close(s
+def close(se
+ef close(sel
+f close(self
+ close(self)
+
+
+        Th
+e
+        ne
+DB instance 
+as a
+       
+s a
+        
+ a
+        c
+lf.storage.c
+f.storage.cl
+.storage.clo
+storage.clos
+torage.close
+orage.close(
+rage.close()
+age.close()
+
+):
+        "
+.
+
+        U
+
+
+        Us
+
+        Usi
+        Usin
+       Using
+      Using 
+ the
+       
+the
+        
+return self
+
+eturn self
+
+
+turn self
+
+ 
+urn self
+
+  
+rn self
+
+   
+n self
+
+    
+ self
+
+    d
+self
+
+    de
+elf
+
+    def
+lf
+
+    def 
+f
+
+    def _
+args):
+     
+rgs):
+      
+gs):
+       
+s):
+        
+""
+        i
+"
+        if
+        if s
+       if se
+      if sel
+     if self
+    if self.
+   if self._
+           s
+          se
+         sel
+      self.c
+
+    def __g
+    def __ge
+   def __get
+  def __geta
+ def __getat
+def __getatt
+ef __getattr
+f __getattr_
+ __getattr__
+__getattr__(
+_getattr__(s
+getattr__(se
+etattr__(sel
+tattr__(self
+attr__(self,
+ttr__(self, 
+tr__(self, n
+r__(self, na
+__(self, nam
+_(self, name
+(self, name)
+self, name):
+elf, name):
+
+lf, name):
+ 
+f, name):
+  
+, name):
+   
+ name):
+    
+name):
+     
+ame):
+      
+me):
+       
+e):
+        
+""
+        F
+"
+        Fo
+        Forw
+       Forwa
+      Forwar
+     Forward
+    Forward 
+   Forward a
+  Forward al
+ Forward all
+Forward all 
+orward all u
+rward all un
+ward all unk
+ard all unkn
+rd all unkno
+d all unknow
+ll unknown a
+l unknown at
+ unknown att
+unknown attr
+nknown attri
+known attrib
+nown attribu
+own attribut
+wn attribute
+n attribute 
+ attribute c
+attribute ca
+ttribute cal
+tribute call
+ribute calls
+ibute calls 
+bute calls t
+ute calls to
+te calls to 
+e calls to t
+ calls to th
+calls to the
+alls to the 
+e instance.
+
+ instance.
+ 
+instance.
+  
+nstance.
+   
+stance.
+    
+tance.
+     
+ance.
+      
+nce.
+       
+ce.
+        
+e.
+        "
+    return g
+   return ge
+  return get
+ return geta
+return getat
+eturn getatt
+turn getattr
+urn getattr(
+rn getattr(s
+n getattr(se
+ getattr(sel
+getattr(self
+etattr(self.
+re
+
+    def 
+===============================
+Similarities between database.py and mypy_plugin.py (k-tail length: 12):
+===============================
+from typing 
+rom typing i
+om typing im
+m typing imp
+ typing impo
+typing impor
+yping import
+ping import 
+with_typehin
+ith_typehint
+
+
+
+class Tin
+
+
+class Tiny
+
+class TinyD
+class TinyDB
+
+
+          
+
+           
+            
+
+    def __i
+    def __in
+   def __ini
+  def __init
+ def __init_
+def __init__
+ef __init__(
+f __init__(s
+ __init__(se
+__init__(sel
+_init__(self
+init__(self,
+nit__(self, 
+s)
+
+        
+
+        sel
+        self
+       self.
+)
+
+        s
+
+
+        se
+s: Dict[str,
+: Dict[str, 
+] = {}
+
+    
+ = {}
+
+    d
+= {}
+
+    de
+ {}
+
+    def
+{}
+
+    def 
+)
+          
+
+
+        re
+
+        ret
+        retu
+       retur
+      return
+     return 
+
+        if 
+:
+          
+           r
+          re
+         ret
+name: str) -
+ame: str) ->
+me: str) -> 
+           d
+          de
+s):
+        
+===============================
+Similarities between database.py and operations.py (k-tail length: 12):
+===============================
+):
+    """
+ 
+:
+    """
+  
+
+    """
+   
+    """
+    
+ operations 
+he document 
+
+        doc
+ the documen
+the document
+``.
+    """
+
+    return t
+es like this
+s like this:
+ like this:
+
+        del 
+
+        del
+       del d
+===============================
+Similarities between database.py and queries.py (k-tail length: 12):
+===============================
+ontains the 
+
+from typing
+from typing 
+rom typing i
+om typing im
+m typing imp
+ typing impo
+typing impor
+yping import
+ping import 
+
+from .utils
+from .utils 
+rom .utils i
+om .utils im
+m .utils imp
+ .utils impo
+.utils impor
+utils import
+tils import 
+ is used to 
+e):
+    """
+
+):
+    """
+ 
+:
+    """
+  
+
+    """
+   
+    """
+    
+   """
+    T
+
+    instanc
+    instance
+ method call
+ operations 
+ ``__getattr
+``__getattr_
+`__getattr__
+__getattr__`
+_getattr__``
+l arguments 
+ :class:`~ti
+:class:`~tin
+class:`~tiny
+lass:`~tinyd
+ass:`~tinydb
+ss:`~tinydb.
+ that will b
+that will be
+hat will be 
+at will be u
+t will be us
+ will be use
+will be used
+ill be used 
+ to
+        
+
+
+        ..
+
+        .. 
+ for a
+     
+for a
+      
+or a
+       
+r a
+        
+        The 
+s::
+
+       
+::
+
+        
+:
+
+         
+
+
+          
+
+           
+            
+           {
+,
+          
+        ...
+
+       ...
+ 
+      ...
+  
+     ...
+   
+    ...
+    
+   ...
+     
+  ...
+      
+ ...
+       
+...
+        
+}
+          
+he document 
+ the documen
+the document
+he documents
+e documents 
+he class of 
+e class of t
+ class of th
+class of the
+lass of the 
+ed
+         
+d
+          
+           w
+.
+    """
+
+ 
+
+    """
+
+  
+    """
+
+   
+   """
+
+    
+e
+
+    def _
+
+
+    def __
+
+    def __i
+    def __in
+   def __ini
+  def __init
+ def __init_
+def __init__
+ef __init__(
+f __init__(s
+ __init__(se
+__init__(sel
+_init__(self
+init__(self,
+nit__(self, 
+) -> None:
+ 
+ -> None:
+  
+-> None:
+   
+> None:
+    
+ None:
+     
+None:
+      
+one:
+       
+ne:
+        
+e:
+        "
+:
+        ""
+
+        """
+        """
+
+       """
+ 
+      """
+  
+     """
+   
+   """
+     
+  """
+      
+ """
+       
+"""
+        
+""
+        C
+.
+        ""
+       """
+
+
+      """
+
+ 
+     """
+
+  
+  """
+
+     
+ """
+
+      
+"""
+
+       
+""
+
+        
+)
+
+        #
+
+
+        # 
+
+        # P
+        # Pr
+       # Pre
+
+        sel
+        self
+       self.
+      self._
+)
+
+        s
+True
+       
+rue
+        
+     self._t
+
+    def __r
+    def __re
+   def __rep
+  def __repr
+ def __repr_
+def __repr__
+ef __repr__(
+f __repr__(s
+ __repr__(se
+__repr__(sel
+_repr__(self
+repr__(self)
+epr__(self):
+pr__(self):
+
+r__(self):
+ 
+__(self):
+  
+_(self):
+   
+(self):
+    
+self):
+     
+elf):
+      
+lf):
+       
+f):
+        
+)),
+        
+),
+         
+{}'.format(s
+}'.format(se
+'.format(sel
+.format(self
+format(self.
+ormat(self._
+t(
+         
+(
+          
+)
+          
+           f
+          fo
+         for
+        for 
+
+
+        re
+
+        ret
+        retu
+       retur
+      return
+     return 
+    return '
+'.format(typ
+.format(type
+format(type(
+ormat(type(s
+rmat(type(se
+mat(type(sel
+at(type(self
+t(type(self)
+(type(self).
+type(self)._
+ype(self).__
+pe(self).__n
+e(self).__na
+(self).__nam
+self).__name
+elf).__name_
+lf).__name__
+))
+
+    def 
+)
+
+    def t
+""
+        G
+"
+        Ge
+e.
+
+        
+ which
+     
+which
+      
+hich
+       
+ich
+        
+s :class:`~t
+s:`~tinydb.t
+:`~tinydb.ta
+`~tinydb.tab
+~tinydb.tabl
+tinydb.table
+inydb.table.
+nydb.table.T
+ydb.table.Ta
+db.table.Tab
+b.table.Tabl
+.table.Table
+table.Table`
+tion
+       
+ion
+        
+s.
+
+        
+.
+
+        :
+
+
+        :p
+
+        :pa
+        :par
+       :para
+      :param
+     :param 
+.
+        :p
+ arguments t
+arguments to
+rguments to 
+guments to p
+uments to pa
+ments to pas
+ents to pass
+nts to pass 
+ts to pass t
+s to pass to
+ to pass to 
+to pass to t
+o pass to th
+ pass to the
+pass to the 
+ass to the t
+
+        if 
+        if n
+:
+          
+           r
+          re
+         ret
+    return s
+   return se
+  return sel
+ return self
+return self.
+eturn self._
+turn self._t
+args)
+      
+rgs)
+       
+gs)
+        
+e
+
+        r
+    return t
+
+        :re
+        :ret
+       :retu
+      :retur
+     :return
+
+        # T
+
+        # d
+es.
+        
+
+        # s
+        # so
+ consider th
+ and return 
+ this
+      
+this
+       
+his
+        
+s
+        # 
+
+        # c
+        # ca
+(self) -> No
+self) -> Non
+elf) -> None
+lf) -> None:
+f) -> None:
+
+
+        # W
+        # We
+       # We 
+t
+        # 
+
+        # t
+ returning t
+
+        # A
+()
+
+    def 
+           d
+          de
+()
+
+        
+        # Th
+       # The
+      # The 
+e:
+         
+        # Re
+ instance.
+
+
+instance.
+
+ 
+nstance.
+
+  
+stance.
+
+   
+tance.
+
+    
+    :return:
+   :return: 
+""
+        r
+"
+        re
+ase
+        
+ instance ca
+instance can
+nstance can 
+stance can b
+tance can be
+ance can be 
+nce can be u
+ce can be us
+e can be use
+ can be used
+can be used 
+an be used a
+n be used as
+ be used as 
+be used as a
+ = False
+   
+= False
+    
+ False
+     
+False
+      
+alse
+       
+lse
+        
+)
+
+    def _
+
+    def __e
+):
+        "
+
+        Use
+r.
+
+        
+.
+
+        U
+
+
+        Us
+ the
+       
+the
+        
+ing
+        
+ The current
+The current 
+t.
+        "
+""
+        i
+"
+        if
+        if s
+       if se
+      if sel
+     if self
+    if self.
+           s
+          se
+         sel
+
+    def __g
+    def __ge
+   def __get
+  def __geta
+ def __getat
+def __getatt
+ef __getattr
+f __getattr_
+ __getattr__
+__getattr__(
+_getattr__(s
+getattr__(se
+etattr__(sel
+tattr__(self
+attr__(self,
+ttr__(self, 
+e):
+        
+__getattr__ 
+
+    def __l
+    def __le
+ documents i
+documents in
+ocuments in 
+.
+
+        >
+
+
+        >>
+
+        >>>
+        >>> 
+       >>> d
+__(self) -> 
+""
+        R
+ts.
+        
+s.
+        "
+    return i
+===============================
+Similarities between database.py and storages.py (k-tail length: 12):
+===============================
+ontains the 
+ the databas
+the database
+he database.
+e database.
+
+
+from typing
+from typing 
+rom typing i
+om typing im
+m typing imp
+ typing impo
+typing impor
+yping import
+ping import 
+ing import D
+ng import Di
+g import Dic
+ import Dict
+import Dict,
+mport Dict, 
+ JSONStorage
+e):
+    """
+
+):
+    """
+ 
+:
+    """
+  
+
+    """
+   
+    """
+    
+   """
+    T
+  """
+    Th
+ """
+    The
+"""
+    The 
+ the storage
+the storage 
+he database
+
+e database
+ 
+ database
+  
+database
+   
+atabase
+    
+ a new insta
+a new instan
+ new instanc
+new instance
+ to the stor
+to the stora
+o the storag
+tinydb.stora
+inydb.storag
+nydb.storage
+ydb.storages
+db.storages.
+ed to create
+d to create 
+d to
+       
+ to
+        
+ storage is 
+ data.
+     
+data.
+      
+ata.
+       
+ta.
+        
+
+
+          
+
+           
+            
+           '
+.
+
+    :para
+
+
+    :param
+
+    :param 
+           w
+.
+    """
+
+ 
+
+    """
+
+  
+    """
+
+   
+   """
+
+    
+  """
+
+    #
+
+
+    def __
+
+    def __i
+    def __in
+   def __ini
+  def __init
+ def __init_
+def __init__
+ef __init__(
+f __init__(s
+ __init__(se
+__init__(sel
+_init__(self
+init__(self,
+nit__(self, 
+) -> None:
+ 
+ -> None:
+  
+-> None:
+   
+> None:
+    
+ None:
+     
+None:
+      
+one:
+       
+ne:
+        
+e:
+        "
+:
+        ""
+
+        """
+        """
+
+       """
+ 
+      """
+  
+     """
+   
+   """
+     
+  """
+      
+ """
+       
+"""
+        
+""
+        C
+"
+        Cr
+
+        Cre
+        Crea
+       Creat
+      Create
+     Create 
+    Create a
+   Create a 
+  Create a n
+ Create a ne
+Create a new
+reate a new 
+eate a new i
+ate a new in
+te a new ins
+e a new inst
+.
+        ""
+       """
+
+
+      """
+
+ 
+     """
+
+  
+  """
+
+     
+ """
+
+      
+"""
+
+       
+""
+
+        
+"
+
+        s
+s)
+
+        
+)
+
+        #
+
+
+        # 
+e
+        se
+
+        sel
+        self
+       self.
+      self._
+kwargs)
+
+   
+wargs)
+
+    
+args)
+
+     
+rgs)
+
+      
+gs)
+
+       
+)
+
+        s
+
+
+        se
+: Dict[str, 
+__(self):
+  
+_(self):
+   
+(self):
+    
+self):
+     
+elf):
+      
+lf):
+       
+f):
+        
+'.format(sel
+.format(self
+format(self.
+ormat(self._
+(
+          
+
+        ret
+        retu
+       retur
+      return
+     return 
+e.
+
+        
+.
+
+        A
+
+
+        Al
+ation
+      
+tion
+       
+ion
+        
+.
+
+        :
+
+
+        :p
+
+        :pa
+        :par
+       :para
+      :param
+     :param 
+.
+        :p
+r
+        ""
+
+
+        if
+
+        if 
+        if n
+:
+          
+           r
+          re
+         ret
+    return s
+   return se
+  return sel
+ return self
+return self.
+)
+        se
+]:
+        "
+
+        # S
+ return ``No
+return ``Non
+eturn ``None
+turn ``None`
+urn ``None``
+rn ``None`` 
+f the databa
+he database 
+ile is empty
+le is empty,
+ we need to 
+we need to c
+s
+        # 
+(self) -> No
+self) -> Non
+elf) -> None
+lf) -> None:
+f) -> None:
+
+e database. 
+
+        # W
+()
+
+    def 
+
+        # i
+        # in
+e
+        if
+
+        dat
+        data
+       data 
+()
+
+        
+e:
+         
+ does not ex
+does not exi
+oes not exis
+es not exist
+
+        # R
+        # Re
+       # Rem
+      # Remo
+     # Remov
+    # Remove
+   # Remove 
+t the storag
+he storage i
+ instance.
+
+
+instance.
+
+ 
+nstance.
+
+  
+stance.
+
+   
+tance.
+
+    
+ance.
+
+     
+nce.
+
+      
+ce.
+
+       
+
+
+    def cl
+
+    def clo
+    def clos
+   def close
+  def close(
+ def close(s
+def close(se
+ef close(sel
+f close(self
+ close(self)
+close(self) 
+lose(self) -
+ose(self) ->
+se(self) -> 
+e(self) -> N
+e the databa
+tabase
+     
+abase
+      
+base
+       
+ase
+        
+ file handle
+file handles
+se
+        s
+e.close()
+
+ 
+.close()
+
+  
+close()
+
+   
+lose()
+
+    
+ose()
+
+    d
+se()
+
+    de
+e()
+
+    def
+):
+        "
+e database a
+ the
+       
+the
+        
+ing
+        
+: The curren
+ The current
+The current 
+args):
+     
+rgs):
+      
+gs):
+       
+s):
+        
+           s
+          se
+         sel
+ instance.
+ 
+instance.
+  
+nstance.
+   
+stance.
+    
+tance.
+     
+ance.
+      
+nce.
+       
+ce.
+        
+e.
+        "
+""
+        R
+"
+        Re
+
+        Ret
+        Retu
+       Retur
+      Return
+     Return 
+===============================
+Similarities between database.py and table.py (k-tail length: 12):
+===============================
+"""
+This mod
+""
+This modu
+"
+This modul
+
+This module
+This module 
+ contains th
+contains the
+ontains the 
+ the databas
+the database
+he database.
+e database.
+
+
+from typing
+from typing 
+rom typing i
+om typing im
+m typing imp
+ typing impo
+typing impor
+yping import
+ping import 
+Storage
+from
+torage
+from 
+orage
+from .
+e
+from .stor
+
+from .stora
+from .storag
+rom .storage
+om .storages
+m .storages 
+ .storages i
+.storages im
+storages imp
+torages impo
+orages impor
+rages import
+ages import 
+ges import S
+es import St
+s import Sto
+ import Stor
+import Stora
+mport Storag
+port Storage
+ort Storage
+
+rt Storage
+f
+t Storage
+fr
+ Storage
+fro
+
+from .utils
+from .utils 
+rom .utils i
+om .utils im
+m .utils imp
+ .utils impo
+.utils impor
+utils import
+tils import 
+ is used to 
+):
+    """
+ 
+:
+    """
+  
+
+    """
+   
+    """
+    
+ the storage
+ documents, 
+ the default
+the default 
+ table.
+
+   
+table.
+
+    
+s the table 
+ the table c
+ table name.
+table name.
+
+ provided by
+ to the stor
+to the stora
+o the storag
+e class that
+ class that 
+class that i
+lass that is
+ass that is 
+ is specifie
+is specified
+s specified,
+ specified, 
+ :class:`~ti
+:class:`~tin
+class:`~tiny
+lass:`~tinyd
+ass:`~tinydb
+ss:`~tinydb.
+ed.
+
+    .. 
+d.
+
+    .. a
+.
+
+    .. ad
+
+
+    .. adm
+
+    .. admo
+    .. admon
+   .. admoni
+  .. admonit
+ .. admoniti
+.. admonitio
+. admonition
+ admonition:
+admonition::
+dmonition:: 
+monition:: C
+onition:: Cu
+nition:: Cus
+ition:: Cust
+tion:: Custo
+ion:: Custom
+on:: Customi
+n:: Customiz
+:: Customiza
+: Customizat
+ Customizati
+Customizatio
+ustomization
+stomization
+
+tomization
+
+
+omization
+
+ 
+mization
+
+  
+ization
+
+   
+zation
+
+    
+ation
+
+     
+tion
+
+      
+ion
+
+       
+on
+
+        
+n
+
+        F
+
+
+        Fo
+
+        For
+        For 
+       For c
+      For cu
+     For cus
+    For cust
+   For custo
+  For custom
+ For customi
+For customiz
+or customiza
+r customizat
+ customizati
+customizatio
+stomization,
+tomization, 
+omization, t
+mization, th
+ization, the
+zation, the 
+ation, the f
+tion, the fo
+ion, the fol
+on, the foll
+n, the follo
+, the follow
+ the followi
+the followin
+he following
+e following 
+ following c
+following cl
+ollowing cla
+llowing clas
+lowing class
+owing class 
+wing class v
+ing class va
+ng class var
+g class vari
+ class varia
+class variab
+lass variabl
+ass variable
+ss variables
+s variables 
+ variables c
+variables ca
+ariables can
+riables can 
+iables can b
+ables can be
+bles can be 
+les can be s
+es can be se
+s can be set
+ can be set:
+can be set:
+
+an be set:
+
+
+n be set:
+
+ 
+ be set:
+
+  
+be set:
+
+   
+e set:
+
+    
+ set:
+
+     
+set:
+
+      
+et:
+
+       
+t:
+
+        
+:
+
+        -
+
+
+        - 
+
+        - `
+        - ``
+e_class`` de
+_class`` def
+class`` defi
+lass`` defin
+ass`` define
+ss`` defines
+s`` defines 
+`` defines t
+` defines th
+ defines the
+defines the 
+efines the c
+fines the cl
+ines the cla
+nes the clas
+es the class
+s the class 
+ the class t
+the class th
+he class tha
+ss that is u
+s that is us
+ that is use
+that is used
+hat is used 
+at is used t
+t is used to
+s,
+        -
+,
+        - 
+       - ``d
+      - ``de
+     - ``def
+    - ``defa
+   - ``defau
+  - ``defaul
+ - ``default
+- ``default_
+ and
+       
+and
+        
+
+          c
+e storage in
+ storage ins
+storage inst
+torage insta
+orage instan
+rage instanc
+age instance
+ed.
+
+       
+d.
+
+        
+
+
+        ..
+
+        .. 
+        .. v
+       .. ve
+      .. ver
+     .. vers
+    .. versi
+   .. versio
+  .. version
+ .. versiona
+.. versionad
+. versionadd
+ versionadde
+versionadded
+ersionadded:
+rsionadded::
+sionadded:: 
+ionadded:: 4
+onadded:: 4.
+nadded:: 4.0
+added:: 4.0
+
+dded:: 4.0
+
+
+ ``dict`` in
+``dict`` ins
+`dict`` inst
+dict`` insta
+ict`` instan
+ct`` instanc
+t`` instance
+s and their 
+
+        The
+        The 
+:
+
+         
+
+
+          
+
+           
+            
+ {
+         
+{
+          
+           '
+          't
+,
+          
+.
+          
+        }
+
+ 
+       }
+
+  
+      }
+
+   
+     }
+
+    
+    }
+
+     
+   }
+
+      
+  }
+
+       
+ }
+
+        
+ the table n
+the table na
+he table nam
+e table name
+d a
+        
+ of document
+of documents
+f documents 
+ documents a
+he document 
+
+        doc
+        docu
+       docum
+      docume
+     documen
+    document
+   document 
+  document I
+ document ID
+document IDs
+ocument IDs 
+cument IDs a
+d the docume
+ the documen
+the document
+he documents
+e documents 
+ documents t
+documents th
+
+
+    :param
+
+    :param 
+    :param s
+   :param st
+  :param sto
+ :param stor
+:param stora
+param storag
+aram storage
+ram storage:
+am storage: 
+m storage: T
+ storage: Th
+storage: The
+torage: The 
+: The class 
+ed
+         
+d
+          
+``.
+    """
+
+`.
+    """
+
+
+.
+    """
+
+ 
+
+    """
+
+  
+    """
+
+   
+   """
+
+    
+  """
+
+    #
+ """
+
+    #:
+"""
+
+    #: 
+""
+
+    #: T
+"
+
+    #: Th
+
+
+    #: The
+
+    #: The 
+    #: The c
+   #: The cl
+  #: The cla
+ #: The clas
+#: The class
+ table insta
+table instan
+able instanc
+ble instance
+s
+    #:
+   
+
+    #:
+    
+    #:
+    #
+   #:
+    #:
+  #:
+    #: 
+ #:
+    #: .
+#:
+    #: ..
+:
+    #: .. 
+
+    #: .. v
+    #: .. ve
+   #: .. ver
+  #: .. vers
+ #: .. versi
+#: .. versio
+: .. version
+dded:: 4.0
+ 
+ded:: 4.0
+  
+ed:: 4.0
+   
+d:: 4.0
+    
+e
+
+    #: Th
+e
+    #:
+   
+:: 4.0
+    d
+: 4.0
+    de
+ 4.0
+    def
+4.0
+    defa
+.0
+    defau
+0
+    defaul
+
+    default
+    default_
+ by default 
+torage
+
+    
+orage
+
+    d
+rage
+
+    de
+age
+
+    def
+ge
+
+    def 
+e
+
+    def _
+
+
+    def __
+
+    def __i
+    def __in
+   def __ini
+  def __init
+ def __init_
+def __init__
+ef __init__(
+f __init__(s
+ __init__(se
+__init__(sel
+_init__(self
+init__(self,
+nit__(self, 
+) -> None:
+ 
+ -> None:
+  
+-> None:
+   
+> None:
+    
+ None:
+     
+None:
+      
+one:
+       
+ne:
+        
+e:
+        "
+:
+        ""
+
+        """
+        """
+
+       """
+ 
+      """
+  
+     """
+   
+   """
+     
+  """
+      
+ """
+       
+"""
+        
+""
+        C
+"
+        Cr
+
+        Cre
+        Crea
+       Creat
+      Create
+     Create 
+    Create a
+   Create a 
+ instance of
+instance of 
+.
+        ""
+       """
+
+
+      """
+
+ 
+     """
+
+  
+  """
+
+     
+ """
+
+      
+"""
+
+       
+""
+
+        
+"
+
+        s
+
+        sto
+        stor
+       stora
+      storag
+     storage
+s)
+
+        
+)
+
+        #
+
+
+        # 
+
+        # P
+        # Pr
+the storage
+
+he storage
+ 
+e storage
+  
+ storage
+   
+storage
+    
+torage
+     
+orage
+      
+rage
+       
+age
+        
+ge
+        s
+e
+        se
+
+        sel
+        self
+       self.
+      self._
+     self._s
+    self._st
+   self._sto
+  self._stor
+ self._stora
+self._storag
+elf._storage
+storage: Sto
+torage: Stor
+orage: Stora
+rage: Storag
+age: Storage
+torage = sto
+orage = stor
+rage = stora
+age = storag
+ge = storage
+)
+
+        s
+
+
+        se
+
+    def __r
+    def __re
+   def __rep
+  def __repr
+ def __repr_
+def __repr__
+ef __repr__(
+f __repr__(s
+ __repr__(se
+__repr__(sel
+_repr__(self
+repr__(self)
+epr__(self):
+pr__(self):
+
+r__(self):
+ 
+__(self):
+  
+_(self):
+   
+(self):
+    
+self):
+     
+elf):
+      
+lf):
+       
+f):
+        
+):
+        a
+:
+        ar
+
+        arg
+        args
+       args 
+      args =
+     args = 
+    args = [
+   args = [
+
+  args = [
+ 
+ args = [
+  
+args = [
+   
+rgs = [
+    
+gs = [
+     
+s = [
+      
+ = [
+       
+= [
+        
+ [
+         
+[
+          
+={}'.format(
+{}'.format(l
+)),
+        
+),
+         
+}'.format(le
+'.format(len
+.format(len(
+format(len(s
+ormat(len(se
+rmat(len(sel
+mat(len(self
+{}'.format(s
+}'.format(se
+'.format(sel
+.format(self
+format(self.
+ormat(self._
+(
+          
+))
+         
+)
+          
+           f
+          fo
+         for
+        for 
+),
+        ]
+,
+        ]
+
+
+        ]
+
+
+        ]
+
+ 
+       ]
+
+  
+      ]
+
+   
+     ]
+
+    
+    ]
+
+     
+   ]
+
+      
+  ]
+
+       
+ ]
+
+        
+]
+
+        r
+
+
+        re
+
+        ret
+        retu
+       retur
+      return
+     return 
+    return '
+   return '<
+  return '<{
+ return '<{}
+return '<{} 
+eturn '<{} {
+turn '<{} {}
+urn '<{} {}>
+rn '<{} {}>'
+n '<{} {}>'.
+ '<{} {}>'.f
+'<{} {}>'.fo
+<{} {}>'.for
+{} {}>'.form
+} {}>'.forma
+ {}>'.format
+{}>'.format(
+}>'.format(t
+>'.format(ty
+'.format(typ
+.format(type
+format(type(
+ormat(type(s
+rmat(type(se
+mat(type(sel
+at(type(self
+t(type(self)
+(type(self).
+type(self)._
+ype(self).__
+pe(self).__n
+e(self).__na
+(self).__nam
+self).__name
+elf).__name_
+lf).__name__
+f).__name__,
+).__name__, 
+.__name__, '
+__name__, ',
+_name__, ', 
+name__, ', '
+ame__, ', '.
+me__, ', '.j
+e__, ', '.jo
+__, ', '.joi
+_, ', '.join
+, ', '.join(
+ ', '.join(a
+', '.join(ar
+, '.join(arg
+ '.join(args
+'.join(args)
+.join(args))
+join(args))
+
+oin(args))
+
+
+in(args))
+
+ 
+n(args))
+
+  
+(args))
+
+   
+args))
+
+    
+))
+
+    def 
+)
+
+    def t
+table(self, 
+ Table:
+    
+able:
+      
+ble:
+       
+le:
+        
+""
+        G
+"
+        Ge
+
+        Get
+        Get 
+       Get a
+able.
+
+     
+ble.
+
+      
+le.
+
+       
+e.
+
+        
+.
+
+        I
+
+
+        If
+
+        If 
+ If the tabl
+If the table
+f the table 
+ be
+        
+ class.
+    
+class.
+     
+lass.
+      
+ass.
+       
+ss.
+        
+ be returned
+.
+
+        A
+ further opt
+further opti
+to the table
+s which
+    
+ which
+     
+which
+      
+hich
+       
+ich
+        
+tinydb.table
+inydb.table.
+ation
+      
+tion
+       
+ion
+        
+
+        for
+       for f
+s.
+
+        
+.
+
+        :
+
+
+        :p
+
+        :pa
+        :par
+       :para
+      :param
+     :param 
+    :param n
+   :param na
+  :param nam
+ :param name
+:param name:
+param name: 
+aram name: T
+ram name: Th
+am name: The
+m name: The 
+ of the tabl
+of the table
+ the table.
+
+ table.
+    
+table.
+     
+able.
+      
+ble.
+       
+le.
+        
+ constructor
+tor
+        
+or
+        "
+r
+        ""
+
+
+        if
+
+        if 
+        if n
+es:
+        
+s:
+         
+:
+          
+           r
+          re
+         ret
+    return s
+   return se
+  return sel
+ return self
+return self.
+eturn self._
+
+
+        ta
+
+        tab
+        tabl
+       table
+      table 
+     table =
+    table = 
+   table = s
+  table = se
+ table = sel
+table = self
+able = self.
+s)
+        s
+)
+        se
+ table
+
+    
+e
+
+        r
+    return t
+   return ta
+  return tab
+ return tabl
+return table
+eturn table
+
+turn table
+
+
+urn table
+
+ 
+rn table
+
+  
+n table
+
+   
+table
+
+    d
+able
+
+    de
+ble
+
+    def
+le
+
+    def 
+]:
+        "
+       Get t
+      Get th
+     Get the
+    Get the 
+ in the data
+in the datab
+n the databa
+ database.
+
+
+database.
+
+ 
+atabase.
+
+  
+tabase.
+
+   
+abase.
+
+    
+se.
+
+       
+
+
+        :r
+
+        :re
+        :ret
+       :retu
+      :retur
+     :return
+    :returns
+   :returns:
+  :returns: 
+ :returns: a
+:returns: a 
+s
+        ""
+"
+
+        #
+
+        # T
+
+        #
+ 
+        #
+  
+       #
+   
+      #
+    
+     #
+     
+    #
+      
+   #
+       
+  #
+        
+ #
+        #
+#
+        # 
+.
+        # 
+n
+        # 
+
+        # d
+e the table 
+es.
+        
+s.
+        #
+.
+        #
+
+
+        # S
+        # St
+       # Sto
+      # Stor
+torage.read(
+orage.read()
+ ``None`` if
+``None`` if 
+`None`` if t
+None`` if th
+one`` if the
+ne`` if the 
+e`` if the d
+he database 
+le is empty,
+ we need to 
+e need to co
+ need to con
+n this
+     
+ this
+      
+this
+       
+his
+        
+is
+        #
+s
+        # 
+
+        # c
+        # ca
+.
+
+        r
+storage.read
+(self) -> No
+self) -> Non
+elf) -> None
+lf) -> None:
+f) -> None:
+
+ tables from
+tables from 
+ables from t
+bles from th
+les from the
+es from the 
+
+        # W
+        # We
+       # We 
+t
+        # 
+
+        # t
+        # to
+       # to 
+      # to t
+     # to th
+    # to the
+   # to the 
+ the initial
+the initial 
+storage.writ
+torage.write
+orage.write(
+we need to r
+e need to re
+.clear()
+
+  
+clear()
+
+   
+lear()
+
+    
+ear()
+
+    d
+ar()
+
+    de
+r()
+
+    def
+()
+
+    def 
+_table(self,
+
+        # I
+        # If
+       # If 
+      # If t
+     # If th
+    # If the
+   # If the 
+  # If the t
+ # If the ta
+# If the tab
+ the table i
+the table is
+he table is 
+s currently 
+et the table
+t the table 
+ class
+     
+class
+      
+lass
+       
+ass
+        
+
+        # i
+ce
+        i
+e
+        if
+           d
+          de
+]
+
+        d
+
+        dat
+        data
+rage.read()
+
+age.read()
+
+
+ge.read()
+
+ 
+e.read()
+
+  
+.read()
+
+   
+read()
+
+    
+ead()
+
+     
+ad()
+
+      
+d()
+
+       
+()
+
+        
+        # Th
+       # The
+      # The 
+     # The d
+    # The da
+   # The dat
+  # The data
+ # The datab
+# The databa
+ The databas
+The database
+e database i
+ database is
+database is 
+        if d
+ is None:
+  
+is None:
+   
+s None:
+    
+e:
+         
+     # The t
+    # The ta
+   # The tab
+  # The tabl
+ # The table
+# The table 
+ The table d
+The table do
+he table doe
+e table does
+ table does 
+table does n
+able does no
+ble does not
+le does not 
+e does not e
+ does not ex
+does not exi
+oes not exis
+es not exist
+
+        # R
+        # Re
+       # Rem
+      # Remo
+     # Remov
+    # Remove
+   # Remove 
+ve the table
+t
+        de
+]
+
+        #
+     # Store
+    # Store 
+   # Store t
+  # Store th
+ # Store the
+# Store the 
+ the updated
+the updated 
+he updated d
+e updated da
+ updated dat
+updated data
+pdated data 
+dated data b
+ated data ba
+ted data bac
+ed data back
+d data back 
+ data back t
+data back to
+ata back to 
+ta back to t
+a back to th
+ back to the
+back to the 
+ack to the s
+ck to the st
+k to the sto
+)
+
+    @prop
+
+
+    @prope
+
+    @proper
+    @propert
+   @property
+  @property
+
+ @property
+ 
+@property
+  
+property
+   
+roperty
+    
+operty
+    d
+perty
+    de
+erty
+    def
+rty
+    def 
+ty
+    def s
+y
+    def st
+
+    def sto
+    def stor
+   def stora
+  def storag
+ def storage
+def storage(
+ef storage(s
+f storage(se
+ storage(sel
+storage(self
+torage(self)
+orage(self) 
+rage(self) -
+age(self) ->
+ge(self) -> 
+e(self) -> S
+(self) -> St
+self) -> Sto
+elf) -> Stor
+lf) -> Stora
+f) -> Storag
+) -> Storage
+ -> Storage:
+-> Storage:
+
+> Storage:
+ 
+ Storage:
+  
+Storage:
+   
+torage:
+    
+orage:
+     
+rage:
+      
+age:
+       
+ge:
+        
+t the storag
+he storage i
+ge instance 
+ used for th
+e
+        ""
+""
+        r
+"
+        re
+turn self._s
+urn self._st
+rn self._sto
+n self._stor
+lf._storage
+
+f._storage
+
+
+._storage
+
+ 
+_storage
+
+  
+storage
+
+   
+e
+
+    def c
+
+
+    def cl
+e(self) -> N
+"
+        Cl
+.
+
+        T
+
+
+        Th
+ to perform 
+
+        con
+        cont
+ with TinyDB
+ will be cal
+will be call
+ill be calle
+ll be called
+)
+
+    def _
+):
+        "
+""
+        U
+t the
+      
+ the
+       
+the
+        
+ing
+        
+
+        the
+        the 
+t.
+
+        
+s):
+        
+t.
+        "
+""
+        i
+"
+        if
+        if s
+       if se
+      if sel
+     if self
+    if self.
+   if self._
+           s
+          se
+         sel
+      self.c
+     self.cl
+le instance.
+e instance.
+
+ instance.
+ 
+instance.
+  
+nstance.
+   
+stance.
+    
+tance.
+     
+ance.
+      
+nce.
+       
+ce.
+        
+e.
+        "
+
+    def __l
+    def __le
+   def __len
+  def __len_
+ def __len__
+def __len__(
+ef __len__(s
+f __len__(se
+ __len__(sel
+__len__(self
+_len__(self)
+len__(self):
+en__(self):
+
+n__(self):
+ 
+   Get the t
+t the total 
+ the total n
+the total nu
+he total num
+e total numb
+ total numbe
+total number
+otal number 
+tal number o
+al number of
+l number of 
+ number of d
+number of do
+umber of doc
+mber of docu
+ber of docum
+er of docume
+r of documen
+ documents i
+documents in
+ocuments in 
+cuments in t
+uments in th
+    return l
+   return le
+  return len
+ return len(
+return len(s
+eturn len(se
+turn len(sel
+urn len(self
+rn len(self.
+    def __it
+   def __ite
+  def __iter
+ def __iter_
+def __iter__
+ef __iter__(
+f __iter__(s
+ __iter__(se
+__iter__(sel
+_iter__(self
+iter__(self)
+ter__(self) 
+er__(self) -
+r__(self) ->
+__(self) -> 
+_(self) -> I
+(self) -> It
+self) -> Ite
+elf) -> Iter
+lf) -> Itera
+f) -> Iterat
+) -> Iterato
+ -> Iterator
+-> Iterator[
+> Iterator[D
+ Iterator[Do
+Iterator[Doc
+terator[Docu
+erator[Docum
+rator[Docume
+ator[Documen
+tor[Document
+or[Document]
+r[Document]:
+[Document]:
+
+Document]:
+ 
+ocument]:
+  
+cument]:
+   
+ument]:
+    
+ment]:
+     
+ent]:
+      
+nt]:
+       
+t]:
+        
+""
+        R
+"
+        Re
+
+        Ret
+        Retu
+       Retur
+      Return
+     Return 
+ an iterator
+an iterator 
+ documents.
+
+documents.
+ 
+ocuments.
+  
+cuments.
+   
+uments.
+    
+ments.
+     
+ents.
+      
+nts.
+       
+ts.
+        
+s.
+        "
+===============================
+Similarities between database.py and utils.py (k-tail length: 12):
+===============================
+
+from typing
+from typing 
+rom typing i
+om typing im
+m typing imp
+ typing impo
+typing impor
+yping import
+ping import 
+t, Iterator,
+, Iterator, 
+ with_typehi
+with_typehin
+ith_typehint
+ This is use
+This is used
+his is used 
+is is used t
+s is used to
+ is used to 
+ add type hi
+add type hin
+dd type hint
+th_typehint(
+):
+    """
+ 
+:
+    """
+  
+
+    """
+   
+    """
+    
+ access to t
+access to th
+ccess to the
+cess to the 
+ess to the d
+e class
+    
+ and
+       
+and
+        
+
+
+          
+
+           
+            
+.
+          
+d
+          
+.
+    """
+
+ 
+
+    """
+
+  
+    """
+
+   
+   """
+
+    
+e
+
+    def _
+
+
+    def __
+
+    def __i
+    def __in
+   def __ini
+  def __init
+ def __init_
+def __init__
+ef __init__(
+f __init__(s
+ __init__(se
+__init__(sel
+_init__(self
+init__(self,
+nit__(self, 
+(self, *args
+self, *args,
+elf, *args, 
+lf, *args, *
+f, *args, **
+, *args, **k
+ *args, **kw
+) -> None:
+ 
+ -> None:
+  
+-> None:
+   
+> None:
+    
+ None:
+     
+None:
+      
+one:
+       
+ne:
+        
+
+        sel
+        self
+       self.
+__(self):
+  
+_(self):
+   
+(self):
+    
+self):
+     
+elf):
+      
+lf):
+       
+f):
+        
+
+
+        re
+
+        ret
+        retu
+       retur
+      return
+     return 
+))
+
+    def 
+table(self, 
+
+
+        if
+
+        if 
+:
+          
+           r
+          re
+         ret
+    return s
+   return se
+  return sel
+ return self
+return self.
+e
+
+        r
+    return t
+table
+
+    d
+able
+
+    de
+ble
+
+    def
+le
+
+    def 
+
+        # T
+s
+        # 
+(self) -> No
+self) -> Non
+elf) -> None
+lf) -> None:
+f) -> None:
+
+      self.s
+.clear()
+
+  
+clear()
+
+   
+lear()
+
+    
+ear()
+
+    d
+ar()
+
+    de
+r()
+
+    def
+()
+
+    def 
+
+        # I
+        # If
+       # If 
+      # If t
+     # If th
+    # If the
+   # If the 
+ class
+     
+class
+      
+lass
+       
+ass
+        
+        del 
+       del s
+      del se
+     del sel
+    del self
+   del self.
+ is None:
+  
+is None:
+   
+s None:
+    
+e:
+         
+
+        del
+)
+
+    @prop
+
+
+    @prope
+
+    @proper
+    @propert
+   @property
+  @property
+
+ @property
+ 
+@property
+  
+property
+   
+roperty
+    
+operty
+    d
+perty
+    de
+erty
+    def
+rty
+    def 
+
+
+    def cl
+ed.
+        
+)
+
+    def _
+s):
+        
+        if s
+       if se
+      if sel
+     if self
+    if self.
+           s
+          se
+         sel
+      self.c
+
+    def __g
+    def __ge
+   def __get
+e):
+        
+
+    def __l
+    def __le
+   def __len
+  def __len_
+ def __len__
+def __len__(
+ef __len__(s
+f __len__(se
+ __len__(sel
+__len__(self
+_len__(self)
+    return l
+   return le
+  return len
+ return len(
+return len(s
+eturn len(se
+turn len(sel
+urn len(self
+rn len(self.
+    def __it
+   def __ite
+  def __iter
+ def __iter_
+def __iter__
+ef __iter__(
+f __iter__(s
+ __iter__(se
+__iter__(sel
+_iter__(self
+iter__(self)
+ter__(self) 
+er__(self) -
+r__(self) ->
+__(self) -> 
+_(self) -> I
+(self) -> It
+self) -> Ite
+elf) -> Iter
+lf) -> Itera
+f) -> Iterat
+) -> Iterato
+ -> Iterator
+-> Iterator[
+    return i
+   return it
+  return ite
+ return iter
+return iter(
+eturn iter(s
+turn iter(se
+urn iter(sel
+rn iter(self
+n iter(self.
+===============================
+No similarities found between database.py and version.py (k-tail length: 12).
+Similarities between middlewares.py and mypy_plugin.py (k-tail length: 12):
+===============================
+from typing 
+rom typing i
+om typing im
+m typing imp
+ typing impo
+typing impor
+yping import
+ping import 
+ import Opti
+import Optio
+mport Option
+
+    def __i
+    def __in
+   def __ini
+  def __init
+ def __init_
+def __init__
+ef __init__(
+f __init__(s
+ __init__(se
+__init__(sel
+_init__(self
+init__(self,
+nit__(self, 
+
+        sel
+        self
+       self.
+s):
+        
+
+
+          
+
+           
+            
+s)
+
+        
+)
+          
+
+
+        se
+
+
+        re
+
+        ret
+        retu
+       retur
+      return
+     return 
+
+        sup
+        supe
+       super
+      super(
+     super()
+    super().
+   super()._
+  super().__
+ super().__i
+super().__in
+uper().__ini
+per().__init
+er().__init_
+r().__init__
+().__init__(
+:
+        if
+
+        if 
+:
+          
+e
+          
+e)
+         
+===============================
+Similarities between middlewares.py and operations.py (k-tail length: 12):
+===============================
+:
+    """
+  
+
+    """
+   
+    """
+    
+):
+    """
+ 
+   """
+    A
+  """
+    Ad
+ """
+    Add
+"""
+    Add 
+te operation
+e operations
+ operations 
+===============================
+Similarities between middlewares.py and queries.py (k-tail length: 12):
+===============================
+"""
+Contains
+""
+Contains 
+"
+Contains t
+
+Contains th
+Contains the
+ontains the 
+
+from typing
+from typing 
+rom typing i
+om typing im
+m typing imp
+ typing impo
+typing impor
+yping import
+ping import 
+ Optional
+
+f
+Optional
+
+fr
+ptional
+
+fro
+tional
+
+from
+ional
+
+from 
+e:
+    """
+ 
+:
+    """
+  
+
+    """
+   
+    """
+    
+   """
+    T
+y.
+    """
+
+
+.
+    """
+
+ 
+
+    """
+
+  
+    """
+
+   
+   """
+
+    
+  """
+
+    d
+ """
+
+    de
+"""
+
+    def
+""
+
+    def 
+"
+
+    def _
+
+
+    def __
+
+    def __i
+    def __in
+   def __ini
+  def __init
+ def __init_
+def __init__
+ef __init__(
+f __init__(s
+ __init__(se
+__init__(sel
+_init__(self
+init__(self,
+nit__(self, 
+) -> None:
+ 
+ -> None:
+  
+-> None:
+   
+> None:
+    
+ None:
+     
+None:
+      
+one:
+       
+ne:
+        
+:
+        se
+
+        sel
+        self
+       self.
+      self._
+e
+
+    def _
+
+    def __c
+    def __ca
+   def __cal
+  def __call
+ def __call_
+def __call__
+ef __call__(
+f __call__(s
+ __call__(se
+__call__(sel
+_call__(self
+call__(self,
+all__(self, 
+):
+        "
+:
+        ""
+
+        """
+        """
+
+       """
+ 
+      """
+  
+     """
+   
+   """
+     
+  """
+      
+ """
+       
+"""
+        
+""
+        C
+e.
+
+        
+.
+
+        U
+
+
+        Us
+s::
+
+       
+::
+
+        
+:
+
+         
+
+
+          
+
+           
+            
+           T
+        The 
+           s
+          se
+         sel
+ the
+       
+the
+        
+ instance.
+
+
+          Th
+         The
+s
+          
+           v
+s))
+        
+)
+          
+ ``__call__`
+``__call__``
+ to
+        
+eturning the
+turning the 
+ive
+        
+).
+
+        
+ calling the
+calling the 
+ calling ``_
+calling ``__
+.
+        ""
+       """
+
+
+      """
+
+ 
+     """
+
+  
+  """
+
+     
+ """
+
+      
+"""
+
+       
+""
+
+        
+)
+
+        r
+
+
+        re
+
+        ret
+        retu
+       retur
+      return
+     return 
+    return s
+   return se
+  return sel
+ return self
+
+    def __g
+    def __ge
+   def __get
+  def __geta
+ def __getat
+def __getatt
+ef __getattr
+f __getattr_
+ __getattr__
+__getattr__(
+_getattr__(s
+getattr__(se
+etattr__(sel
+tattr__(self
+attr__(self,
+ttr__(self, 
+e):
+        
+e
+        re
+"
+
+        r
+e):
+    """
+
+):
+    """
+ 
+   """
+    A
+.
+
+    This 
+ operations 
+):
+        #
+:
+        # 
+
+        sup
+        supe
+       super
+      super(
+     super()
+    super().
+   super()._
+  super().__
+ super().__i
+super().__in
+uper().__ini
+per().__init
+er().__init_
+r().__init__
+().__init__(
+)
+
+        #
+
+
+        # 
+
+        # P
+        # Pr
+       # Pre
+ = None
+    
+= None
+     
+ None
+      
+None
+       
+one
+        
+(self):
+    
+self):
+     
+elf):
+      
+lf):
+       
+f):
+        
+):
+        i
+:
+        if
+
+        if 
+        if s
+       if se
+      if sel
+     if self
+    if self.
+e:
+         
+:
+          
+           #
+          # 
+e
+          
+()
+
+        
+        # Re
+return self.
+()
+
+    def 
+)
+
+    def f
+""
+        i
+"
+        if
+e)
+         
+===============================
+Similarities between middlewares.py and storages.py (k-tail length: 12):
+===============================
+"""
+Contains
+""
+Contains 
+"
+Contains t
+
+Contains th
+Contains the
+ontains the 
+ntains the :
+tains the :c
+ains the :cl
+ins the :cla
+ns the :clas
+s the :class
+ the :class:
+the :class:`
+he :class:`b
+e :class:`ba
+ :class:`bas
+:class:`base
+class:`base 
+lass:`base c
+ass:`base cl
+ss:`base cla
+s:`base clas
+:`base class
+`base class 
+base class <
+ase class <t
+se class <ti
+e class <tin
+ class <tiny
+class <tinyd
+lass <tinydb
+ass <tinydb.
+implementati
+mplementatio
+plementation
+lementations
+ementations.
+mentations.
+
+entations.
+"
+ntations.
+""
+tations.
+"""
+ations.
+"""
+
+
+from typing
+from typing 
+rom typing i
+om typing im
+m typing imp
+ typing impo
+typing impor
+yping import
+ping import 
+:
+    """
+  
+
+    """
+   
+    """
+    
+   """
+    T
+  """
+    Th
+ """
+    The
+"""
+    The 
+ base class 
+base class f
+ase class fo
+se class for
+e class for 
+ class for a
+class for al
+lass for all
+ass for all 
+y.
+    """
+
+
+.
+    """
+
+ 
+
+    """
+
+  
+    """
+
+   
+   """
+
+    
+  """
+
+    d
+ """
+
+    de
+"""
+
+    def
+""
+
+    def 
+"
+
+    def _
+
+
+    def __
+
+    def __i
+    def __in
+   def __ini
+  def __init
+ def __init_
+def __init__
+ef __init__(
+f __init__(s
+ __init__(se
+__init__(sel
+_init__(self
+init__(self,
+nit__(self, 
+) -> None:
+ 
+ -> None:
+  
+-> None:
+   
+> None:
+    
+ None:
+     
+None:
+      
+one:
+       
+ne:
+        
+e:
+        s
+:
+        se
+
+        sel
+        self
+       self.
+      self._
+s
+        se
+, **kwargs):
+ **kwargs):
+
+**kwargs):
+ 
+*kwargs):
+  
+kwargs):
+   
+wargs):
+    
+args):
+     
+rgs):
+      
+gs):
+       
+s):
+        
+):
+        "
+:
+        ""
+
+        """
+        """
+
+       """
+ 
+      """
+  
+     """
+   
+   """
+     
+  """
+      
+ """
+       
+"""
+        
+""
+        C
+"
+        Cr
+
+        Cre
+        Crea
+       Creat
+      Create
+     Create 
+ Create the 
+ the storage
+the storage 
+he storage i
+storage.
+
+  
+torage.
+
+   
+orage.
+
+    
+rage.
+
+     
+age.
+
+      
+ge.
+
+       
+e.
+
+        
+
+
+          
+
+           
+            
+s)
+
+        
+           s
+          se
+         sel
+kwargs)
+
+   
+wargs)
+
+    
+args)
+
+     
+rgs)
+
+      
+gs)
+
+       
+ the
+       
+the
+        
+ instance.
+
+
+s
+          
+ to
+        
+ instance.
+ 
+instance.
+  
+nstance.
+   
+stance.
+    
+tance.
+     
+ance.
+      
+nce.
+       
+ce.
+        
+ initialize 
+ializes the 
+initialize t
+nitialize th
+itialize the
+tialize the 
+.
+        ""
+       """
+
+
+      """
+
+ 
+     """
+
+  
+  """
+
+     
+ """
+
+      
+"""
+
+       
+""
+
+        
+"
+
+        s
+
+
+        se
+
+        ret
+        retu
+       retur
+      return
+     return 
+    return s
+   return se
+  return sel
+ return self
+e.
+        "
+"
+
+        r
+e):
+    """
+
+):
+    """
+ 
+ and reading
+e.
+    """
+
+
+  """
+
+    #
+):
+        #
+:
+        # 
+
+        sup
+        supe
+       super
+      super(
+     super()
+    super().
+   super()._
+  super().__
+ super().__i
+super().__in
+uper().__ini
+per().__init
+er().__init_
+r().__init__
+().__init__(
+)
+
+        #
+
+
+        # 
+e
+        se
+ None
+      
+None
+       
+one
+        
+
+
+    def re
+
+    def rea
+    def read
+   def read(
+  def read(s
+ def read(se
+def read(sel
+ef read(self
+f read(self)
+(self):
+    
+self):
+     
+elf):
+      
+lf):
+       
+f):
+        
+
+        if 
+e:
+         
+:
+          
+           #
+          # 
+e
+          
+()
+
+        
+
+        # R
+        # Re
+       # Ret
+      # Retu
+     # Retur
+    # Return
+   # Return 
+  # Return t
+ # Return th
+# Return the
+ Return the 
+Return the c
+return self.
+
+
+    def wr
+
+    def wri
+    def writ
+   def write
+  def write(
+ def write(s
+def write(se
+ef write(sel
+f write(self
+ write(self,
+write(self, 
+rite(self, d
+ite(self, da
+te(self, dat
+e(self, data
+
+        # S
+
+        # C
+        # Ch
+       # Che
+      # Chec
+     # Check
+    # Check 
+   # Check i
+  # Check if
+ # Check if 
+# Check if w
+ Check if we
+Check if we 
+heck if we n
+eck if we ne
+ck if we nee
+k if we need
+ if we need 
+if we need t
+f we need to
+ we need to 
+e
+        if
+()
+
+    def 
+         # F
+ data to the
+data to the 
+ to the stor
+to the stora
+o the storag
+
+
+    def cl
+
+    def clo
+    def clos
+   def close
+  def close(
+ def close(s
+def close(se
+ef close(sel
+f close(self
+ close(self)
+t the storag
+===============================
+Similarities between middlewares.py and table.py (k-tail length: 12):
+===============================
+ontains the 
+
+from typing
+from typing 
+rom typing i
+om typing im
+m typing imp
+ typing impo
+typing impor
+yping import
+ping import 
+ import Stor
+import Stora
+mport Storag
+port Storage
+ort Storage
+
+e:
+    """
+ 
+:
+    """
+  
+
+    """
+   
+    """
+    
+ read/write 
+ent class
+  
+nt class
+   
+t class
+    
+ constructor
+constructor 
+.
+    """
+
+ 
+
+    """
+
+  
+    """
+
+   
+   """
+
+    
+  """
+
+    d
+ """
+
+    de
+"""
+
+    def
+""
+
+    def 
+"
+
+    def _
+
+
+    def __
+
+    def __i
+    def __in
+   def __ini
+  def __init
+ def __init_
+def __init__
+ef __init__(
+f __init__(s
+ __init__(se
+__init__(sel
+_init__(self
+init__(self,
+nit__(self, 
+) -> None:
+ 
+ -> None:
+  
+-> None:
+   
+> None:
+    
+ None:
+     
+None:
+      
+one:
+       
+ne:
+        
+
+        sel
+        self
+       self.
+      self._
+     self._s
+    self._st
+   self._sto
+  self._stor
+ self._stora
+self._storag
+elf._storage
+storage: Sto
+torage: Stor
+orage: Stora
+rage: Storag
+age: Storage
+e
+
+    def _
+s):
+        
+):
+        "
+:
+        ""
+
+        """
+        """
+
+       """
+ 
+      """
+  
+     """
+   
+   """
+     
+  """
+      
+ """
+       
+"""
+        
+""
+        C
+"
+        Cr
+
+        Cre
+        Crea
+       Creat
+      Create
+     Create 
+ the storage
+he storage i
+e storage in
+ storage ins
+storage inst
+torage insta
+orage instan
+rage instanc
+age instance
+ge instance 
+storage.
+
+  
+torage.
+
+   
+orage.
+
+    
+rage.
+
+     
+age.
+
+      
+ge.
+
+       
+e.
+
+        
+:
+
+         
+
+
+          
+
+           
+            
+           T
+s)
+
+        
+
+
+        Th
+
+        The
+        The 
+       The s
+      The st
+     The sto
+    The stor
+   The stora
+  The storag
+ The storage
+The storage 
+ used by Tin
+used by Tiny
+sed by TinyD
+ed by TinyDB
+d by TinyDB 
+           s
+          se
+         sel
+storage = st
+torage = sto
+orage = stor
+rage = stora
+age = storag
+ge = storage
+
+
+        As
+
+        As 
+ returns the
+ the
+       
+the
+        
+ge instance.
+e instance.
+
+ class
+     
+class
+      
+lass
+       
+ass
+        
+ss
+         
+s
+          
+))
+         
+)
+          
+ an instance
+ning the ins
+ the underly
+the underlyi
+he underlyin
+e underlying
+ underlying 
+ instance.
+ 
+instance.
+  
+nstance.
+   
+stance.
+    
+tance.
+     
+ance.
+      
+nce.
+       
+ce.
+        
+.
+
+        I
+ calling the
+calling the 
+ if it was a
+ and
+       
+and
+        
+.
+        ""
+       """
+
+
+      """
+
+ 
+     """
+
+  
+  """
+
+     
+ """
+
+      
+"""
+
+       
+""
+
+        
+"
+
+        s
+
+
+        se
+ = self._sto
+= self._stor
+)
+
+        r
+
+
+        re
+
+        ret
+        retu
+       retur
+      return
+     return 
+    return s
+   return se
+  return sel
+ return self
+
+        For
+underlying s
+nderlying st
+derlying sto
+erlying stor
+rlying stora
+lying storag
+ying storage
+ble.
+       
+le.
+        
+e.
+        "
+"
+
+        r
+):
+    """
+ 
+   """
+    A
+.
+
+    This 
+ cache.
+    
+  """
+
+    #
+ """
+
+    #:
+"""
+
+    #: 
+""
+
+    #: T
+"
+
+    #: Th
+
+
+    #: The
+
+    #: The 
+te operation
+0
+
+    def _
+
+        # I
+        # In
+tor
+        
+
+        sup
+        supe
+       super
+      super(
+     super()
+    super().
+   super()._
+  super().__
+ super().__i
+super().__in
+uper().__ini
+per().__init
+er().__init_
+r().__init__
+().__init__(
+)
+
+        #
+
+
+        # 
+
+        # P
+        # Pr
+ cache
+     
+cache
+      
+ache
+       
+che
+        
+e
+        se
+      self.c
+ = None
+    
+= None
+     
+ None
+      
+None
+       
+one
+        
+
+
+    def re
+d(self):
+   
+(self):
+    
+self):
+     
+elf):
+      
+lf):
+       
+f):
+        
+
+        if 
+        if s
+       if se
+      if sel
+     if self
+    if self.
+ is None:
+  
+is None:
+   
+s None:
+    
+e:
+         
+:
+          
+           #
+          # 
+ from the st
+from the sto
+rom the stor
+om the stora
+m the storag
+the storage
+
+he storage
+ 
+e storage
+  
+ storage
+   
+storage
+    
+torage
+     
+orage
+      
+rage
+       
+age
+        
+e
+          
+storage.read
+torage.read(
+orage.read()
+rage.read()
+
+age.read()
+
+
+ge.read()
+
+ 
+e.read()
+
+  
+.read()
+
+   
+read()
+
+    
+ead()
+
+     
+ad()
+
+      
+d()
+
+       
+()
+
+        
+
+        # R
+        # Re
+       # Ret
+ Return the 
+ed data
+    
+d data
+     
+ data
+      
+data
+       
+ata
+        
+return self.
+
+        # S
+        # St
+       # Sto
+      # Stor
+     # Store
+    # Store 
+ta
+        s
+a
+        se
+ 1
+
+        
+1
+
+        #
+
+        # C
+        # Ch
+       # Che
+      # Chec
+     # Check
+    # Check 
+   # Check i
+  # Check if
+ # Check if 
+ we need to 
+e
+        if
+   if self._
+()
+
+    def 
+""
+        i
+"
+        if
+         # F
+        # Fo
+       # For
+ data to the
+data to the 
+ to the stor
+to the stora
+o the storag
+storage.writ
+torage.write
+orage.write(
+e)
+         
+
+
+    def cl
+
+        # F
+t the storag
+===============================
+Similarities between middlewares.py and utils.py (k-tail length: 12):
+===============================
+ and impleme
+and implemen
+nd implement
+
+from typing
+from typing 
+rom typing i
+om typing im
+m typing imp
+ typing impo
+typing impor
+yping import
+ping import 
+:
+    """
+  
+
+    """
+   
+    """
+    
+.
+    """
+
+ 
+
+    """
+
+  
+    """
+
+   
+   """
+
+    
+  """
+
+    d
+ """
+
+    de
+"""
+
+    def
+""
+
+    def 
+"
+
+    def _
+
+
+    def __
+
+    def __i
+    def __in
+   def __ini
+  def __init
+ def __init_
+def __init__
+ef __init__(
+f __init__(s
+ __init__(se
+__init__(sel
+_init__(self
+init__(self,
+nit__(self, 
+) -> None:
+ 
+ -> None:
+  
+-> None:
+   
+> None:
+    
+ None:
+     
+None:
+      
+one:
+       
+ne:
+        
+e:
+        s
+:
+        se
+
+        sel
+        self
+       self.
+      self.s
+e  # type: i
+  # type: ig
+ # type: ign
+# type: igno
+ type: ignor
+type: ignore
+ype: ignore
+
+e
+
+    def _
+
+    def __c
+(self, *args
+self, *args,
+elf, *args, 
+lf, *args, *
+f, *args, **
+, *args, **k
+ *args, **kw
+s):
+        
+
+
+          
+
+           
+            
+           s
+          se
+         sel
+e class
+    
+ class
+     
+class
+      
+lass
+       
+ass
+        
+s
+          
+ return valu
+return value
+    class re
+ and
+       
+and
+        
+)
+
+        r
+
+
+        re
+
+        ret
+        retu
+       retur
+      return
+     return 
+    return s
+   return se
+  return sel
+ return self
+
+    def __g
+    def __ge
+   def __get
+e):
+        
+):
+    """
+ 
+   """
+    A
+  """
+    Ad
+ """
+    Add
+"""
+    Add 
+.
+
+    This 
+he number of
+):
+        #
+:
+        # 
+
+        # I
+        # In
+      self.c
+     self.ca
+    self.cac
+   self.cach
+  self.cache
+(self):
+    
+self):
+     
+elf):
+      
+lf):
+       
+f):
+        
+):
+        i
+:
+        if
+
+        if 
+        if s
+       if se
+      if sel
+     if self
+    if self.
+   if self.c
+  if self.ca
+ if self.cac
+if self.cach
+f self.cache
+e is None:
+ 
+ is None:
+  
+is None:
+   
+s None:
+    
+e:
+         
+:
+          
+           #
+          # 
+return self.
+n self.cache
+ self.cache
+
+self.cache
+
+
+elf.cache
+
+ 
+lf.cache
+
+  
+f.cache
+
+   
+.cache
+
+    
+cache
+
+    d
+ache
+
+    de
+che
+
+    def
+he
+
+    def 
+
+        # C
+        # Ch
+       # Che
+      # Chec
+     # Check
+()
+
+    def 
+(self.cache)
+self.cache)
+
+
+
+    def cl
+===============================
+No similarities found between middlewares.py and version.py (k-tail length: 12).
+Similarities between mypy_plugin.py and operations.py (k-tail length: 12):
+===============================
+
+    return 
+===============================
+Similarities between mypy_plugin.py and queries.py (k-tail length: 12):
+===============================
+from typing 
+rom typing i
+om typing im
+m typing imp
+ typing impo
+typing impor
+yping import
+ping import 
+, Callable, 
+ions import 
+
+    def __i
+    def __in
+   def __ini
+  def __init
+ def __init_
+def __init__
+ef __init__(
+f __init__(s
+ __init__(se
+__init__(sel
+_init__(self
+init__(self,
+nit__(self, 
+):
+        s
+
+        sup
+        supe
+       super
+      super(
+     super()
+    super().
+   super()._
+  super().__
+ super().__i
+super().__in
+uper().__ini
+per().__init
+er().__init_
+r().__init__
+().__init__(
+)
+
+        s
+
+        sel
+        self
+       self.
+:
+        if
+
+        if 
+:
+          
+
+           
+            
+           d
+          de
+         def
+        def 
+t):
+        
+):
+         
+]
+          
+           a
+t isinstance
+ isinstance(
+
+
+          
+           t
+e
+          
+ is not None
+is not None
+
+s not None
+
+
+ not None
+
+ 
+not None
+
+  
+ot None
+
+   
+t None
+
+    
+ None
+
+     
+None
+
+      
+one
+
+       
+ne
+
+        
+e
+
+         
+e)
+         
+)
+          
+d)
+
+        
+           r
+          re
+         ret
+        retu
+       retur
+      return
+     return 
+    return h
+
+
+        re
+
+        ret
+: str):
+    
+):
+    retur
+:
+    return
+
+    return 
+    return T
+===============================
+Similarities between mypy_plugin.py and storages.py (k-tail length: 12):
+===============================
+from typing 
+rom typing i
+om typing im
+m typing imp
+ typing impo
+typing impor
+yping import
+ping import 
+
+    def __i
+    def __in
+   def __ini
+  def __init
+ def __init_
+def __init__
+ef __init__(
+f __init__(s
+ __init__(se
+__init__(sel
+_init__(self
+init__(self,
+nit__(self, 
+s):
+        
+):
+        s
+
+        sup
+        supe
+       super
+      super(
+     super()
+    super().
+   super()._
+  super().__
+ super().__i
+super().__in
+uper().__ini
+per().__init
+er().__init_
+r().__init__
+().__init__(
+s)
+
+        
+)
+
+        s
+
+
+        se
+
+        sel
+        self
+       self.
+: Dict[str, 
+
+        if 
+:
+          
+
+           
+            
+):
+         
+)
+
+         
+
+
+          
+           t
+e
+          
+           r
+          re
+         ret
+        retu
+       retur
+      return
+     return 
+
+        ret
+    return N
+   return No
+  return Non
+ return None
+return None
+
+===============================
+Similarities between mypy_plugin.py and table.py (k-tail length: 12):
+===============================
+from typing 
+rom typing i
+om typing im
+m typing imp
+ typing impo
+typing impor
+yping import
+ping import 
+
+    def __i
+    def __in
+   def __ini
+  def __init
+ def __init_
+def __init__
+ef __init__(
+f __init__(s
+ __init__(se
+__init__(sel
+_init__(self
+init__(self,
+nit__(self, 
+s):
+        
+):
+        s
+:
+        su
+
+        sup
+        supe
+       super
+      super(
+     super()
+    super().
+   super()._
+  super().__
+ super().__i
+super().__in
+uper().__ini
+per().__init
+er().__init_
+r().__init__
+().__init__(
+s)
+
+        
+)
+
+        s
+
+
+        se
+
+        sel
+        self
+       self.
+
+
+    def ge
+
+    def get
+
+        if 
+tinydb.utils
+inydb.utils.
+:
+          
+
+           
+            
+           d
+          de
+         def
+        def 
+t):
+        
+):
+         
+t isinstance
+ isinstance(
+r)
+
+        
+)
+
+         
+
+
+          
+           t
+name
+       
+ame
+        
+e
+          
+ is not None
+is not None
+
+s not None
+
+
+ not None
+
+ 
+not None
+
+  
+ot None
+
+   
+t None
+
+    
+ None
+
+     
+None
+
+      
+one
+
+       
+ne
+
+        
+e
+
+         
+e)
+         
+)
+          
+d is not Non
+           c
+d)
+
+        
+           r
+          re
+         ret
+        retu
+       retur
+      return
+     return 
+
+
+        re
+
+        ret
+    return N
+   return No
+  return Non
+ return None
+return None
+
+eturn None
+
+
+===============================
+Similarities between mypy_plugin.py and utils.py (k-tail length: 12):
+===============================
+from typing 
+rom typing i
+om typing im
+m typing imp
+ typing impo
+typing impor
+yping import
+ping import 
+, Optional, 
+tions import
+ions import 
+ons import O
+
+T = TypeVar
+T = TypeVar(
+ = TypeVar('
+= TypeVar('T
+ TypeVar('T'
+TypeVar('T')
+ypeVar('T')
+
+
+    def __i
+    def __in
+   def __ini
+  def __init
+ def __init_
+def __init__
+ef __init__(
+f __init__(s
+ __init__(se
+__init__(sel
+_init__(self
+init__(self,
+nit__(self, 
+s):
+        
+
+        sel
+        self
+       self.
+
+
+    def ge
+
+    def get
+:
+        if
+
+        if 
+with_typehin
+ith_typehint
+th_typehint'
+:
+          
+
+           
+            
+t):
+        
+):
+         
+ isinstance(
+)
+
+         
+
+
+          
+e is not Non
+ is not None
+e
+
+         
+           r
+          re
+         ret
+        retu
+       retur
+      return
+     return 
+    return h
+
+
+        re
+
+        ret
+
+    return 
+===============================
+No similarities found between mypy_plugin.py and version.py (k-tail length: 12).
+Similarities between operations.py and queries.py (k-tail length: 12):
+===============================
+ operations 
+s for TinyDB
+ all documen
+all document
+ll documents
+l documents 
+):
+    """
+ 
+:
+    """
+  
+
+    """
+   
+    """
+    
+ the documen
+the document
+ document.
+ 
+document.
+  
+ocument.
+   
+cument.
+    
+   """
+    d
+  """
+    de
+ """
+    def
+"""
+    def 
+:
+        de
+
+    return 
+    return t
+   """
+    A
+l):
+    """
+
+he document 
+===============================
+Similarities between operations.py and storages.py (k-tail length: 12):
+===============================
+):
+    """
+ 
+:
+    """
+  
+
+    """
+   
+    """
+    
+.
+    """
+  
+   """
+    S
+l):
+    """
+
+===============================
+Similarities between operations.py and table.py (k-tail length: 12):
+===============================
+ update oper
+update opera
+pdate operat
+date operati
+ate operatio
+te operation
+ all documen
+all document
+ll documents
+l documents 
+ documents w
+documents wh
+ocuments whe
+):
+    """
+ 
+:
+    """
+  
+
+    """
+   
+    """
+    
+ the documen
+the document
+ document.
+ 
+document.
+  
+ocument.
+   
+cument.
+    
+(doc):
+     
+doc):
+      
+oc):
+       
+c):
+        
+    return t
+   """
+    A
+d in the doc
+
+        doc
+``.
+    """
+
+he document 
+===============================
+Similarities between operations.py and utils.py (k-tail length: 12):
+===============================
+):
+    """
+ 
+:
+    """
+  
+
+    """
+   
+    """
+    
+.
+    """
+  
+:
+        de
+
+        del
+        del 
+
+    return 
+    return t
+   """
+    A
+  """
+    Ad
+ """
+    Add
+"""
+    Add 
+===============================
+No similarities found between operations.py and version.py (k-tail length: 12).
+Similarities between queries.py and storages.py (k-tail length: 12):
+===============================
+"""
+Contains
+""
+Contains 
+"
+Contains t
+
+Contains th
+Contains the
+ontains the 
+
+"""
+
+import
+"""
+
+import 
+
+from typing
+from typing 
+rom typing i
+om typing im
+m typing imp
+ typing impo
+typing impor
+yping import
+ping import 
+, Optional
+
+
+l
+
+__all__ =
+
+
+__all__ = 
+
+__all__ = (
+__all__ = ('
+ol):
+    """
+l):
+    """
+
+):
+    """
+ 
+:
+    """
+  
+
+    """
+   
+    """
+    
+
+
+    def __
+ instance.
+
+
+instance.
+
+ 
+nstance.
+
+  
+stance.
+
+   
+tance.
+
+    
+n which the 
+ry.
+    """
+
+y.
+    """
+
+
+.
+    """
+
+ 
+
+    """
+
+  
+    """
+
+   
+   """
+
+    
+  """
+
+    d
+ """
+
+    de
+"""
+
+    def
+""
+
+    def 
+"
+
+    def _
+
+    def __i
+    def __in
+   def __ini
+  def __init
+ def __init_
+def __init__
+ef __init__(
+f __init__(s
+ __init__(se
+__init__(sel
+_init__(self
+init__(self,
+nit__(self, 
+]):
+        
+):
+        s
+:
+        se
+
+        sel
+        self
+       self.
+      self._
+     self._h
+    self._ha
+:
+        re
+
+        ret
+        retu
+       retur
+      return
+     return 
+    return s
+   return se
+  return sel
+ return self
+return self.
+ None
+
+    d
+None
+
+    de
+one
+
+    def
+ne
+
+    def 
+:
+        ""
+
+        """
+        """
+
+       """
+ 
+      """
+  
+     """
+   
+   """
+     
+  """
+      
+ """
+       
+"""
+        
+e.
+
+        
+.
+
+        :
+
+
+        :p
+
+        :pa
+        :par
+       :para
+      :param
+     :param 
+y.
+        "
+.
+        ""
+e)
+
+    def 
+:
+        # 
+
+        # W
+__(self):
+  
+_(self):
+   
+(self):
+    
+self):
+     
+elf):
+      
+lf):
+       
+f):
+        
+'.format(sel
+.format(self
+format(self.
+ormat(self._
+
+        if 
+):
+         
+:
+          
+
+           
+            
+           r
+          re
+         ret
+e
+        # 
+ments
+      
+ents
+       
+nts
+        
+s
+        if
+
+        els
+        else
+       else:
+      else:
+
+     else:
+ 
+    else:
+  
+   else:
+   
+  else:
+    
+ else:
+     
+else:
+      
+lse:
+       
+se:
+        
+e:
+         
+ None
+      
+None
+       
+one
+        
+e):
+    """
+
+   """
+    T
+init__(self)
+(self) -> No
+self) -> Non
+elf) -> None
+lf) -> None:
+f) -> None:
+
+) -> None:
+ 
+ -> None:
+  
+-> None:
+   
+> None:
+    
+ None:
+     
+None:
+      
+one:
+       
+ne:
+        
+ The current
+The current 
+()
+
+        
+)
+
+        #
+
+
+        # 
+          ra
+         rai
+        rais
+       raise
+      raise 
+)
+
+        s
+
+
+        su
+
+        sup
+        supe
+       super
+      super(
+     super()
+    super().
+   super()._
+  super().__
+ super().__i
+super().__in
+uper().__ini
+per().__init
+er().__init_
+r().__init__
+().__init__(
+(
+          
+           t
+        )
+
+ 
+       )
+
+  
+      )
+
+   
+     )
+
+    
+()
+
+    def 
+r):
+        
+):
+        #
+
+        # G
+        # Ge
+ the current
+the current 
+ in case
+   
+in case
+    
+n case
+     
+ case
+      
+case
+       
+ase
+        
+d the access
+ry
+
+    def 
+ the
+       
+the
+        
+he
+        #
+           s
+          se
+         sel
+e:
+        "
+.
+        :p
+        if n
+       if no
+      if not
+     if not 
+    if not s
+        try:
+       try:
+
+      try:
+ 
+     try:
+  
+    try:
+   
+   try:
+    
+  try:
+     
+ try:
+      
+try:
+       
+ry:
+        
+y:
+         
+           #
+          # 
+         # R
+        # Re
+        exce
+       excep
+      except
+     except 
+se
+         
+e
+          
+):
+        "
+""
+        R
+ing
+        
+
+
+          
+ to
+        
+       """
+
+
+      """
+
+ 
+     """
+
+  
+  """
+
+     
+ """
+
+      
+"""
+
+       
+""
+
+        
+s
+          
+    :param a
+tion
+       
+ion
+        
+""
+        C
+    :param c
+           w
+"
+
+        r
+s
+        # 
+ = None
+
+   
+= None
+
+    
+===============================
+Similarities between queries.py and table.py (k-tail length: 12):
+===============================
+ontains the 
+ :class:`~ti
+:class:`~tin
+class:`~tiny
+lass:`~tinyd
+ass:`~tinydb
+ss:`~tinydb.
+ by using th
+by using the
+y using the 
+ using the `
+using the ``
+
+from typing
+from typing 
+rom typing i
+om typing im
+m typing imp
+ typing impo
+typing impor
+yping import
+ping import 
+
+from .utils
+from .utils 
+rom .utils i
+om .utils im
+m .utils imp
+ .utils impo
+.utils impor
+utils import
+tils import 
+
+
+__all__ = 
+
+__all__ = (
+__all__ = ('
+):
+    """
+ 
+:
+    """
+  
+
+    """
+   
+    """
+    
+   """
+    A
+  """
+    A 
+ a query.
+
+ 
+a query.
+
+  
+ query.
+
+   
+query.
+
+    
+ing a
+      
+ng a
+       
+ whether the
+whether the 
+ matches the
+matches the 
+atches the q
+tches the qu
+ches the que
+hes the quer
+es the query
+s the query,
+ the query, 
+ have a stab
+have a stabl
+ave a stable
+ve a stable 
+e a stable h
+ a stable ha
+a stable has
+ stable hash
+stable hash 
+s to have a 
+`is_cacheabl
+is_cacheable
+s_cacheable`
+ that return
+that returns
+hat returns 
+.
+
+    This 
+ is used to 
+ed to make M
+d to make My
+ to make MyP
+to make MyPy
+o make MyPy 
+ the query
+ 
+the query
+  
+he query
+   
+e query
+    
+__(self, val
+_(self, valu
+(self, value
+self, value:
+elf, value: 
+lf, value: M
+f, value: Ma
+, value: Map
+ value: Mapp
+value: Mappi
+alue: Mappin
+lue: Mapping
+: Mapping) -
+ Mapping) ->
+Mapping) -> 
+
+
+    def __
+__(self) -> 
+e:
+    """
+ 
+e.
+
+    This
+    :class:`
+   :class:`~
+  :class:`~t
+ a query cac
+a query cach
+ query cache
+query cache,
+uery cache, 
+ery cache, a
+ to have a s
+to have a st
+o have a sta
+y a query
+  
+ a query
+   
+a query
+    
+.
+    """
+
+ 
+
+    """
+
+  
+    """
+
+   
+   """
+
+    
+  """
+
+    d
+ """
+
+    de
+"""
+
+    def
+""
+
+    def 
+"
+
+    def _
+
+    def __i
+    def __in
+   def __ini
+  def __init
+ def __init_
+def __init__
+ef __init__(
+f __init__(s
+ __init__(se
+__init__(sel
+_init__(self
+init__(self,
+nit__(self, 
+: Callable[[
+ Callable[[M
+Callable[[Ma
+allable[[Map
+llable[[Mapp
+lable[[Mappi
+able[[Mappin
+ble[[Mapping
+le[[Mapping]
+e[[Mapping],
+[[Mapping], 
+e]):
+       
+]):
+        
+):
+        s
+
+        sel
+        self
+       self.
+      self._
+f is_cacheab
+ is_cacheabl
+s_cacheable(
+able(self) -
+ble(self) ->
+le(self) -> 
+) -> bool:
+ 
+ -> bool:
+  
+-> bool:
+   
+> bool:
+    
+ bool:
+     
+bool:
+      
+ool:
+       
+ol:
+        
+
+        ret
+        retu
+       retur
+      return
+     return 
+    return s
+   return se
+  return sel
+ return self
+return self.
+eturn self._
+ is not None
+is not None
+
+s not None
+
+
+ not None
+
+ 
+not None
+
+  
+ot None
+
+   
+t None
+
+    
+ None
+
+    d
+None
+
+    de
+one
+
+    def
+ne
+
+    def 
+e
+
+    def _
+l:
+        "
+:
+        ""
+
+        """
+        """
+
+       """
+ 
+      """
+  
+     """
+   
+   """
+     
+  """
+      
+ """
+       
+"""
+        
+ate the quer
+te the query
+e the query 
+ the query t
+the query to
+he query to 
+e.
+
+        
+.
+
+        :
+
+
+        :p
+
+        :pa
+        :par
+       :para
+      :param
+     :param 
+
+        :re
+        :ret
+       :retu
+      :retur
+     :return
+.
+        ""
+""
+        r
+"
+        re
+)
+
+    def _
+) -> int:
+  
+ -> int:
+   
+-> int:
+    
+> int:
+     
+ int:
+      
+int:
+       
+nt:
+        
+
+        # W
+        # We
+       # We 
+      # We c
+ which
+     
+which
+      
+hich
+       
+ich
+        
+
+        # d
+, so we can 
+ it
+        
+t
+        re
+
+    def __r
+    def __re
+   def __rep
+  def __repr
+ def __repr_
+def __repr__
+ef __repr__(
+f __repr__(s
+ __repr__(se
+__repr__(sel
+_repr__(self
+repr__(self)
+epr__(self):
+pr__(self):
+
+r__(self):
+ 
+__(self):
+  
+_(self):
+   
+(self):
+    
+self):
+     
+elf):
+      
+lf):
+       
+f):
+        
+    return '
+{}'.format(s
+}'.format(se
+'.format(sel
+.format(self
+format(self.
+ormat(self._
+ct):
+       
+t):
+        
+
+        if 
+        if i
+       if is
+      if isi
+     if isin
+    if isins
+   if isinst
+  if isinsta
+ if isinstan
+if isinstanc
+f isinstance
+ isinstance(
+):
+         
+:
+          
+
+           
+            
+           r
+          re
+         ret
+
+
+        re
+e
+        # 
+ of
+        
+ments
+      
+ents
+       
+nts
+        
+s
+        if
+        if s
+       if se
+      if sel
+     if self
+    if self.
+_cacheable()
+cacheable():
+acheable():
+
+cheable():
+ 
+heable():
+  
+eable():
+   
+able():
+    
+ble():
+     
+le():
+      
+e():
+       
+():
+        
+)
+        el
+
+        els
+        else
+       else:
+      else:
+
+     else:
+ 
+    else:
+  
+   else:
+   
+  else:
+    
+ else:
+     
+else:
+      
+lse:
+       
+se:
+        
+e:
+         
+ = None
+    
+= None
+     
+ None
+      
+None
+       
+one
+        
+ing the
+    
+ by calling 
+by calling t
+y calling th
+ calling the
+calling the 
+ the documen
+the document
+he document 
+e document t
+ document to
+document to 
+ first argum
+first argume
+irst argumen
+rst argument
+hether the d
+r the docume
+he documents
+e documents 
+ documents m
+documents ma
+ocuments mat
+cuments matc
+uments match
+(self) -> No
+self) -> Non
+elf) -> None
+lf) -> None:
+f) -> None:
+
+) -> None:
+ 
+ -> None:
+  
+-> None:
+   
+> None:
+    
+ None:
+     
+None:
+      
+one:
+       
+ne:
+        
+
+        # T
+        # Th
+       # The
+      # The 
+ Tuple[Union
+Tuple[Union[
+()
+
+        
+)
+
+        #
+
+
+        # 
+
+        # P
+        # Pr
+ated
+       
+ted
+        
+
+        def
+        def 
+          ra
+         rai
+        rais
+       raise
+      raise 
+     raise R
+    raise Ru
+   raise Run
+  raise Runt
+ raise Runti
+raise Runtim
+aise Runtime
+ise RuntimeE
+se RuntimeEr
+e RuntimeErr
+ RuntimeErro
+RuntimeError
+untimeError(
+ntimeError('
+')
+
+        
+)
+
+        s
+
+        sup
+        supe
+       super
+      super(
+     super()
+    super().
+   super()._
+  super().__
+ super().__i
+super().__in
+uper().__ini
+per().__init
+er().__init_
+r().__init__
+().__init__(
+__init__(
+  
+_init__(
+   
+init__(
+    
+nit__(
+     
+it__(
+      
+t__(
+       
+__(
+        
+(
+          
+           t
+,
+          
+        )
+
+ 
+       )
+
+  
+      )
+
+   
+     )
+
+    
+'.format(typ
+.format(type
+format(type(
+ormat(type(s
+rmat(type(se
+mat(type(sel
+at(type(self
+t(type(self)
+(type(self).
+type(self)._
+ype(self).__
+pe(self).__n
+e(self).__na
+(self).__nam
+self).__name
+elf).__name_
+lf).__name__
+()
+
+    def 
+        # Ge
+       # Gen
+      # Gene
+     # Gener
+    # Genera
+   # Generat
+  # Generate
+ # Generate 
+ query objec
+query object
+t with the n
+ with the ne
+with the new
+ith the new 
+ of the curr
+of the curre
+f the curren
+ the current
+the current 
+
+        # N
+        # No
+       # Now
+      # Now 
+ update the 
+pdate the qu
+date the que
+ None
+
+     
+None
+
+      
+one
+
+       
+ne
+
+        
+e
+
+        r
+ query
+
+    
+
+        # t
+        # th
+       # the
+      # the 
+
+        # m
+ By calling 
+By calling `
+y calling ``
+ that
+      
+that
+       
+hat
+        
+t
+        # 
+
+        # c
+        # ca
+        # do
+       # doc
+      # docu
+     # docum
+    # docume
+   # documen
+  # document
+ document's 
+to the
+     
+o the
+      
+ the
+       
+the
+        
+he
+        #
+
+        # `
+        # ``
+` method
+   
+ method
+    
+method
+     
+ethod
+      
+thod
+       
+hod
+        
+
+
+    def _g
+
+    def _ge
+           s
+          se
+         sel
+       self,
+      self,
+
+     self,
+ 
+    self,
+  
+   self,
+   
+  self,
+    
+ self,
+     
+self,
+      
+elf,
+       
+lf,
+        
+e:
+        "
+""
+        G
+"
+        Ge
+ function th
+function tha
+unction that
+nction that 
+ query
+     
+query
+      
+uery
+       
+ery
+        
+es.
+        
+ of the quer
+of the query
+""
+        i
+"
+        if
+        if n
+       if no
+      if not
+     if not 
+     raise V
+    raise Va
+   raise Val
+  raise Valu
+ raise Value
+raise ValueE
+aise ValueEr
+ise ValueErr
+se ValueErro
+e ValueError
+ ValueError(
+ValueError('
+
+
+        de
+        try:
+       try:
+
+      try:
+ 
+     try:
+  
+    try:
+   
+   try:
+    
+  try:
+     
+ try:
+      
+try:
+       
+ry:
+        
+y:
+         
+           #
+          # 
+         # R
+        # Re
+       # Res
+th
+         
+h
+          
+           f
+          fo
+         for
+        for 
+           i
+          if
+         if 
+           e
+          el
+         els
+(value)
+    
+value)
+     
+alue)
+      
+lue)
+       
+ue)
+        
+e)
+         
+)
+          
+        exce
+       excep
+      except
+     except 
+se
+         
+e
+          
+         # P
+        # Pe
+       # Per
+      # Perf
+     # Perfo
+    # Perfor
+   # Perform
+  # Perform 
+ # Perform t
+# Perform th
+ Perform the
+Perform the 
+erform the s
+ the specifi
+the specifie
+he specified
+e specified 
+st
+         
+t
+          
+    return t
+e)
+
+        
+)
+
+        r
+           l
+          la
+         lam
+        lamb
+       lambd
+      lambda
+e),
+        
+),
+         
+):
+        "
+""
+        T
+y.
+
+        
+ against
+   
+against
+    
+gainst
+     
+ainst
+      
+inst
+       
+nst
+        
+
+    def __l
+    def __le
+ts.
+
+       
+s.
+
+        
+s()
+        
+""
+        R
+)
+
+        :
+ to use for 
+ing
+        
+    :param f
+``
+        "
+`
+        ""
+""
+        d
+    if not i
+   if not is
+  if not isi
+ if not isin
+if not isins
+f not isinst
+ not isinsta
+not isinstan
+ot isinstanc
+t isinstance
+e
+
+         
+
+
+          
+    return r
+   return re
+) is not Non
+))
+
+    def 
+)
+
+    def s
+
+
+    def se
+
+    def sea
+    def sear
+   def searc
+  def search
+ def search(
+def search(s
+ef search(se
+f search(sel
+ search(self
+search(self,
+earch(self, 
+       """
+
+
+      """
+
+ 
+     """
+
+  
+  """
+
+     
+ """
+
+      
+"""
+
+       
+""
+
+        
+)
+
+    def t
+
+
+        ..
+
+        .. 
+:
+
+         
+           T
+        The 
+ function pr
+function pro
+unction prov
+nction provi
+ction provid
+tion provide
+ion provided
+on provided 
+ needs to be
+needs to be 
+ng the
+     
+g the
+      
+he
+         
+ed with the 
+ this
+      
+this
+       
+his
+        
+is
+         
+s
+          
+ the query c
+the query ca
+he query cac
+e query cach
+query cache 
+uery cache t
+tinydb.table
+inydb.table.
+ments.
+
+    
+ents.
+
+     
+nts.
+
+      
+he function 
+e function t
+        argu
+       argum
+      argume
+     argumen
+    argument
+ument
+      
+ment
+       
+ent
+        
+t
+        :p
+tion
+       
+ion
+        
+(self, cond:
+self, cond: 
+""
+        C
+"
+        Ch
+
+        Che
+        Chec
+       Check
+      Check 
+ document in
+document in 
+    :param c
+   :param co
+  :param con
+ :param cond
+:param cond:
+param cond: 
+ one documen
+one document
+ne document 
+ or
+        
+r
+          
+ed
+         
+d
+          
+ted document
+ed document.
+d document.
+
+ document.
+ 
+document.
+  
+ocument.
+   
+cument.
+    
+ument.
+     
+ment.
+      
+ent.
+       
+nt.
+        
+t.
+        "
+        if c
+       if ca
+      if cal
+     if call
+    if calla
+   if callab
+  if callabl
+ if callable
+if callable(
+d):
+        
+           d
+          de
+         def
+)
+
+        e
+
+
+        el
+d))
+        
+
+
+    def al
+
+    def all
+    def all(
+   def all(s
+  def all(se
+ def all(sel
+def all(self
+ all documen
+all document
+ll documents
+l documents 
+ documents i
+documents in
+ocuments in 
+cuments in a
+uments in a 
+ments in a l
+ents in a li
+nts in a lis
+ts in a list
+t all docume
+ documents h
+documents ha
+ocuments hav
+cuments have
+uments have 
+ a list
+    
+a list
+     
+ list
+      
+list
+       
+ist
+        
+ cond)
+
+    
+cond)
+
+     
+ond)
+
+      
+nd)
+
+       
+d)
+
+        
+t(self, docu
+(self, docum
+self, docume
+elf, documen
+lf, document
+f, document:
+, document: 
+ document: M
+document: Ma
+ocument: Map
+cument: Mapp
+ument: Mappi
+ment: Mappin
+ent: Mapping
+nt: Mapping)
+t: Mapping) 
+ in document
+ue
+
+        
+)),
+        
+"
+
+        r
+ for
+       
+for
+        
+or
+        a
+s.
+        "
+s
+        # 
+        # ha
+ts.
+        
+ = None
+
+   
+= None
+
+    
+===============================
+Similarities between queries.py and utils.py (k-tail length: 12):
+===============================
+
+from typing
+from typing 
+rom typing i
+om typing im
+m typing imp
+ typing impo
+typing impor
+yping import
+ping import 
+ions import 
+
+
+__all__ = 
+
+__all__ = (
+__all__ = ('
+e(obj):
+    
+
+    return 
+    return h
+   return ha
+  return has
+):
+    """
+ 
+:
+    """
+  
+
+    """
+   
+    """
+    
+   """
+    A
+  """
+    A 
+ stable hash
+.
+
+    This 
+ is used to 
+
+    def __c
+
+
+    def __
+
+    def __h
+    def __ha
+   def __has
+  def __hash
+ def __hash_
+def __hash__
+ef __hash__(
+f __hash__(s
+ __hash__(se
+__hash__(sel
+_hash__(self
+hash__(self)
+__(self) -> 
+_(self) -> i
+(self) -> in
+self) -> int
+elf) -> int:
+e.
+
+    This
+
+
+    This i
+
+    This is
+    This is 
+ class acts 
+ a dictionar
+a dictionary
+ dictionary.
+dictionary.
+
+.
+    """
+
+ 
+
+    """
+
+  
+    """
+
+   
+   """
+
+    
+  """
+
+    d
+ """
+
+    de
+"""
+
+    def
+""
+
+    def 
+"
+
+    def _
+
+    def __i
+    def __in
+   def __ini
+  def __init
+ def __init_
+def __init__
+ef __init__(
+f __init__(s
+ __init__(se
+__init__(sel
+_init__(self
+init__(self,
+nit__(self, 
+:
+        se
+
+        sel
+        self
+       self.
+) -> bool:
+ 
+ -> bool:
+  
+-> bool:
+   
+> bool:
+    
+ bool:
+     
+bool:
+      
+ool:
+       
+ol:
+        
+l:
+        r
+:
+        re
+
+        ret
+        retu
+       retur
+      return
+     return 
+    return s
+   return se
+  return sel
+ return self
+return self.
+ is not None
+e
+
+    def _
+ a specified
+a specified 
+value)
+
+    
+alue)
+
+    d
+lue)
+
+    de
+ue)
+
+    def
+e)
+
+    def 
+)
+
+    def _
+lf) -> int:
+
+f) -> int:
+ 
+) -> int:
+  
+ -> int:
+   
+-> int:
+    
+> int:
+     
+ int:
+      
+int:
+       
+nt:
+        
+:
+        # 
+alculate the
+lculate the 
+ return hash
+return hash(
+__(self):
+  
+_(self):
+   
+(self):
+    
+self):
+     
+elf):
+      
+lf):
+       
+f):
+        
+):
+        r
+ct):
+       
+t):
+        
+):
+        i
+:
+        if
+
+        if 
+    if isins
+   if isinst
+  if isinsta
+ if isinstan
+if isinstanc
+f isinstance
+ isinstance(
+isinstance(o
+e):
+        
+):
+         
+:
+          
+
+           
+            
+           r
+          re
+         ret
+
+
+        re
+    return F
+        if s
+       if se
+      if sel
+     if self
+    if self.
+
+        els
+        else
+       else:
+      else:
+
+     else:
+ 
+    else:
+  
+   else:
+   
+  else:
+    
+ else:
+     
+else:
+      
+lse:
+       
+se:
+        
+e:
+         
+
+
+    Note t
+
+    Note th
+    Note tha
+   Note that
+  Note that 
+s:
+
+    >>> 
+(self) -> No
+self) -> Non
+elf) -> None
+lf) -> None:
+f) -> None:
+
+) -> None:
+ 
+ -> None:
+  
+-> None:
+   
+> None:
+    
+ None:
+     
+None:
+      
+one:
+       
+ne:
+        
+e:
+        #
+
+        # T
+          ra
+         rai
+        rais
+       raise
+      raise 
+ash__(self):
+sh__(self):
+
+h__(self):
+ 
+()
+
+    def 
+
+    def __g
+    def __ge
+   def __get
+):
+        #
+ the accesse
+the accessed
+e
+
+        r
+  def __geti
+ def __getit
+def __getite
+ef __getitem
+f __getitem_
+ __getitem__
+__getitem__(
+_getitem__(s
+getitem__(se
+etitem__(sel
+titem__(self
+item__(self,
+tem__(self, 
+           s
+          se
+         sel
+y:
+         
+           #
+          # 
+           i
+          if
+         if 
+        valu
+       value
+      value 
+     value =
+    value = 
+m the specif
+ the specifi
+the specifie
+he specified
+e specified 
+    return t
+ue)
+
+       
+e)
+
+        
+)
+
+        r
+y):
+        
+
+    def __l
+    def __le
+e
+
+         
+
+
+          
+))
+
+    def 
+
+
+    def se
+    ...     
+    return v
+   return va
+  return val
+s
+          
+d
+          
+    return i
+ value)
+
+   
+)
+
+        e
+
+
+        el
+e:
+        d
+:
+        de
+ue
+
+        
+y functions.
+ functions.
+
+s
+        # 
+===============================
+No similarities found between queries.py and version.py (k-tail length: 12).
+Similarities between storages.py and table.py (k-tail length: 12):
+===============================
+ontains the 
+
+from typing
+from typing 
+rom typing i
+om typing im
+m typing imp
+ typing impo
+typing impor
+yping import
+ping import 
+
+
+__all__ = 
+
+__all__ = (
+__all__ = ('
+):
+    """
+ 
+:
+    """
+  
+
+    """
+   
+    """
+    
+    Create a
+   Create a 
+ it doesn't 
+t doesn't ex
+ doesn't exi
+doesn't exis
+oesn't exist
+
+
+    :param
+
+    :param 
+    :param c
+)
+
+        #
+
+
+        # 
+
+        # C
+        # Ch
+       # Che
+      # Chec
+     # Check
+    # Check 
+   # Check i
+  # Check if
+ # Check if 
+ we need to 
+ries
+       
+ies
+        
+s
+        if
+
+        if 
+        if n
+       if no
+      if not
+     if not 
+):
+         
+:
+          
+
+           
+            
+           o
+ does not ex
+does not exi
+oes not exis
+es not exist
+s not exist 
+ not exist y
+not exist ye
+ot exist yet
+'):
+        
+ the current
+the current 
+ the databas
+the database
+he database 
+.
+    """
+
+ 
+
+    """
+
+  
+    """
+
+   
+   """
+
+    
+  """
+
+    #
+s that have
+
+ that have
+ 
+that have
+  
+hat have
+   
+at have
+    
+    # implem
+   # impleme
+  # implemen
+ # implement
+# implemente
+ implemented
+implemented 
+) -> Optiona
+ -> Optional
+-> Optional[
+]]]:
+       
+]]:
+        
+]:
+        "
+:
+        ""
+
+        """
+        """
+
+       """
+ 
+      """
+  
+     """
+   
+   """
+     
+  """
+      
+ """
+       
+"""
+        
+""
+        R
+"
+        Re
+
+        Rea
+        Read
+       Read 
+      Read t
+     Read th
+    Read the
+   Read the 
+e.
+
+        
+.
+
+        A
+
+        Ret
+        Retu
+       Retur
+      Return
+     Return 
+t the storag
+ the storage
+he storage i
+.
+        ""
+       """
+
+
+      """
+
+ 
+     """
+
+  
+  """
+
+     
+ """
+
+      
+"""
+
+       
+""
+
+        
+"
+
+        r
+
+
+        ra
+
+        rai
+        rais
+       raise
+      raise 
+) -> None:
+ 
+ -> None:
+  
+-> None:
+   
+> None:
+    
+ None:
+     
+None:
+      
+one:
+       
+ne:
+        
+e:
+        "
+e the curren
+ to the stor
+to the stora
+o the storag
+the storage.
+he storage.
+
+e storage.
+
+
+ storage.
+
+ 
+storage.
+
+  
+torage.
+
+   
+orage.
+
+    
+rage.
+
+     
+age.
+
+      
+ge.
+
+       
+.
+
+        :
+
+
+        :p
+
+        :pa
+        :par
+       :para
+      :param
+     :param 
+    :param d
+he database.
+e database.
+
+e.
+        "
+')
+
+    def 
+)
+
+    def c
+
+
+    def cl
+e(self) -> N
+(self) -> No
+self) -> Non
+elf) -> None
+lf) -> None:
+f) -> None:
+
+    Optional
+ Store the d
+  """
+
+    d
+ """
+
+    de
+"""
+
+    def
+""
+
+    def 
+"
+
+    def _
+
+
+    def __
+
+    def __i
+    def __in
+   def __ini
+  def __init
+ def __init_
+def __init__
+ef __init__(
+f __init__(s
+ __init__(se
+__init__(sel
+_init__(self
+init__(self,
+nit__(self, 
+s):
+        
+):
+        "
+""
+        C
+"
+        Cr
+
+        Cre
+        Crea
+       Creat
+      Create
+     Create 
+.
+
+        N
+
+
+        No
+
+        Not
+        Note
+       Note:
+      Note: 
+ other than 
+
+        dat
+        data
+r
+        ""
+"
+
+        s
+
+        sup
+        supe
+       super
+      super(
+     super()
+    super().
+   super()._
+  super().__
+ super().__i
+super().__in
+uper().__ini
+per().__init
+er().__init_
+r().__init__
+().__init__(
+()
+
+        
+)
+
+        s
+
+
+        se
+
+        sel
+        self
+       self.
+      self._
+e
+        se
+s
+
+        i
+
+
+        if
+(
+          
+           '
+ '
+         
+'
+          
+           )
+          )
+
+         )
+
+
+        )
+
+ 
+       )
+
+  
+      )
+
+   
+     )
+
+    
+    )
+
+     
+   )
+
+      
+  )
+
+       
+ )
+
+        
+ the
+       
+the
+        
+he
+        #
+e
+        # 
+
+        # a
+e
+        if
+s
+          
+           t
+s)
+
+        
+
+        # O
+writing
+    
+riting
+     
+iting
+      
+ting
+       
+ing
+        
+()
+
+    def 
+
+
+    def re
+        # Ge
+ng
+        #
+g
+        # 
+
+        # i
+        # it
+ation
+      
+tion
+       
+ion
+        
+)
+
+        i
+e:
+         
+           #
+          # 
+         # F
+        # Fi
+       # Fil
+le is empty,
+e is empty, 
+ is empty, s
+y
+          
+         # i
+se
+         
+e
+          
+           r
+          re
+         ret
+        retu
+       retur
+      return
+     return 
+    return N
+   return No
+  return Non
+ return None
+return None
+
+ None
+      
+None
+       
+one
+        
+ne
+        e
+e
+        el
+
+        els
+        else
+       else:
+      else:
+
+     else:
+ 
+    else:
+  
+   else:
+   
+  else:
+    
+ else:
+     
+else:
+      
+lse:
+       
+se:
+        
+         # R
+        # Re
+       # Ret
+ Return the 
+le
+         
+           s
+          se
+         sel
+)
+
+         
+
+
+          
+]):
+        
+
+        # M
+
+        # S
+        # Se
+uments
+     
+ments
+      
+ents
+       
+nts
+        
+
+        # W
+        # Wr
+       # Wri
+      # Writ
+     # Write
+    # Write 
+   # Write t
+  # Write th
+ # Write the
+# Write the 
+ data to the
+data to the 
+
+        try
+        try:
+       try:
+
+      try:
+ 
+     try:
+  
+    try:
+   
+   try:
+    
+  try:
+     
+ try:
+      
+try:
+       
+ry:
+        
+y:
+         
+)
+        ex
+
+        exc
+        exce
+       excep
+      except
+     except 
+          ra
+         rai
+'.format(sel
+.format(self
+format(self.
+ormat(self._
+))
+
+        
+
+        # E
+())
+
+       
+
+        # R
+       # Rem
+      # Remo
+     # Remov
+    # Remove
+   # Remove 
+  # Remove d
+as
+        #
+s
+        # 
+ter
+        
+er
+        s
+r
+        se
+__(self):
+  
+_(self):
+   
+(self):
+    
+self):
+     
+elf):
+      
+lf):
+       
+f):
+        
+ instance.
+ 
+instance.
+  
+nstance.
+   
+stance.
+    
+tance.
+     
+ance.
+      
+nce.
+       
+ce.
+        
+)
+        se
+ = None
+
+   
+= None
+
+    
+ None
+
+    d
+None
+
+    de
+one
+
+    def
+ne
+
+    def 
+
+        ret
+    return s
+   return se
+  return sel
+ return self
+return self.
+):
+        s
+===============================
+Similarities between storages.py and utils.py (k-tail length: 12):
+===============================
+tions.
+"""
+
+
+
+from typing
+from typing 
+rom typing i
+om typing im
+m typing imp
+ typing impo
+typing impor
+yping import
+ping import 
+
+
+__all__ = 
+
+__all__ = (
+__all__ = ('
+):
+    """
+ 
+:
+    """
+  
+
+    """
+   
+    """
+    
+.
+    """
+  
+   """
+    i
+  """
+    if
+ """
+    if 
+
+        # C
+        # Ch
+       # Che
+      # Chec
+     # Check
+
+        if 
+):
+         
+:
+          
+
+           
+            
+.
+    """
+
+ 
+
+    """
+
+  
+    """
+
+   
+   """
+
+    
+ implemented
+implemented 
+) -> Optiona
+ -> Optional
+-> Optional[
+]]:
+        
+
+        rai
+        rais
+       raise
+      raise 
+) -> None:
+ 
+ -> None:
+  
+-> None:
+   
+> None:
+    
+ None:
+     
+None:
+      
+one:
+       
+ne:
+        
+')
+
+    def 
+)
+
+    def c
+
+
+    def cl
+(self) -> No
+self) -> Non
+elf) -> None
+lf) -> None:
+f) -> None:
+
+le.
+    """
+
+  """
+
+    d
+ """
+
+    de
+"""
+
+    def
+""
+
+    def 
+"
+
+    def _
+
+
+    def __
+
+    def __i
+    def __in
+   def __ini
+  def __init
+ def __init_
+def __init__
+ef __init__(
+f __init__(s
+ __init__(se
+__init__(sel
+_init__(self
+init__(self,
+nit__(self, 
+s):
+        
+
+        sel
+        self
+       self.
+
+
+        if
+s
+          
+e:
+        s
+:
+        se
+()
+
+    def 
+:
+        # 
+)
+
+        i
+e:
+         
+           #
+          # 
+           r
+          re
+         ret
+        retu
+       retur
+      return
+     return 
+
+        els
+        else
+       else:
+      else:
+
+     else:
+ 
+    else:
+  
+   else:
+   
+  else:
+    
+ else:
+     
+else:
+      
+lse:
+       
+se:
+        
+           s
+          se
+         sel
+)
+
+         
+
+
+          
+e)
+
+    def 
+):
+        #
+y:
+         
+          ra
+         rai
+s
+        # 
+__(self):
+  
+_(self):
+   
+(self):
+    
+self):
+     
+elf):
+      
+lf):
+       
+f):
+        
+]:
+        r
+:
+        re
+
+        ret
+    return s
+   return se
+  return sel
+ return self
+return self.
+===============================
+No similarities found between storages.py and version.py (k-tail length: 12).
+Similarities between table.py and utils.py (k-tail length: 12):
+===============================
+ implements 
+implements t
+.
+"""
+
+from 
+
+from typing
+from typing 
+rom typing i
+om typing im
+m typing imp
+ typing impo
+typing impor
+yping import
+ping import 
+
+
+__all__ = 
+
+__all__ = (
+__all__ = ('
+t(dict):
+   
+(dict):
+    
+dict):
+    "
+ict):
+    ""
+ct):
+    """
+t):
+    """
+
+):
+    """
+ 
+:
+    """
+  
+
+    """
+   
+    """
+    
+   """
+    A
+  """
+    A 
+e.
+
+    This
+.
+
+    This 
+
+
+    This c
+
+    This cl
+    This cla
+   This clas
+  This class
+ This class 
+.
+    """
+
+ 
+
+    """
+
+  
+    """
+
+   
+   """
+
+    
+  """
+
+    d
+ """
+
+    de
+"""
+
+    def
+""
+
+    def 
+"
+
+    def _
+
+
+    def __
+
+    def __i
+    def __in
+   def __ini
+  def __init
+ def __init_
+def __init__
+ef __init__(
+f __init__(s
+ __init__(se
+__init__(sel
+_init__(self
+init__(self,
+nit__(self, 
+t):
+        
+
+        sel
+        self
+       self.
+ is implemen
+is implement
+s implemente
+ implemented
+implemented 
+mplemented u
+plemented us
+lemented usi
+emented usin
+mented using
+ented using 
+nted using a
+ the least-r
+the least-re
+he least-rec
+e least-rece
+ least-recen
+least-recent
+east-recentl
+ast-recently
+st-recently 
+t-recently u
+-recently us
+recently use
+ecently used
+cently used 
+ is used to 
+capacity
+   
+apacity
+    
+
+           
+            
+e)
+
+        
+e
+
+    def _
+__(self):
+  
+_(self):
+   
+(self):
+    
+self):
+     
+elf):
+      
+lf):
+       
+f):
+        
+
+
+        re
+
+        ret
+        retu
+       retur
+      return
+     return 
+))
+
+    @pro
+)
+
+    @prop
+
+
+    @prope
+
+    @proper
+    @propert
+   @property
+  @property
+
+ @property
+ 
+@property
+  
+property
+   
+roperty
+    
+operty
+    d
+perty
+    de
+erty
+    def
+rty
+    def 
+    return s
+   return se
+  return sel
+ return self
+return self.
+) -> int:
+  
+ -> int:
+   
+-> int:
+    
+> int:
+     
+ int:
+      
+int:
+       
+nt:
+        
+mplements th
+plements the
+lements the 
+ements the `
+ments the ``
+
+        if 
+ isinstance(
+):
+         
+:
+          
+           r
+          ra
+         rai
+        rais
+       raise
+      raise 
+    if isins
+   if isinst
+  if isinsta
+ if isinstan
+if isinstanc
+f isinstance
+           #
+          # 
+ the specifi
+the specifie
+he specified
+e specified 
+
+
+          
+           s
+          se
+         sel
+
+        els
+        else
+       else:
+      else:
+
+     else:
+ 
+    else:
+  
+   else:
+   
+  else:
+    
+ else:
+     
+else:
+      
+lse:
+       
+se:
+        
+e:
+         
+         # I
+        # In
+       # In 
+    def upda
+   def updat
+  def update
+ dict):
+    
+dict):
+     
+ict):
+      
+ct):
+       
+           i
+          if
+         if 
+)
+
+        r
+    return d
+)
+
+         
+         # C
+        # Ch
+       # Che
+      # Chec
+     # Check
+s
+          
+ and
+       
+and
+        
+nd
+         
+d
+          
+ue
+
+        
+e
+
+         
+(self) -> Li
+self) -> Lis
+elf) -> List
+lf) -> List[
+    return l
+   return li
+  return lis
+ return list
+return list(
+))
+
+    def 
+
+
+    def se
+s
+        # 
+)
+        if
+ is not None
+is not None:
+s not None:
+
+ not None:
+ 
+not None:
+  
+ot None:
+   
+t None:
+    
+ None:
+     
+None:
+      
+one:
+       
+ne:
+        
+          re
+         ret
+
+        # T
+ stable hash
+
+
+    def ge
+
+    def get
+    def get(
+) -> Optiona
+ -> Optional
+-> Optional[
+> Optional[U
+ Optional[Un
+Optional[Uni
+ptional[Unio
+tional[Union
+ional[Union[
+]]:
+        
+ specified b
+)
+
+        i
+
+
+        if
+ is None:
+  
+is None:
+   
+s None:
+    
+ class
+     
+class
+      
+lass
+       
+ass
+        
+)
+
+        e
+
+
+        el
+.
+          
+e
+
+        r
+
+        rai
+')
+
+    def 
+)
+
+    def c
+) -> bool:
+ 
+ -> bool:
+  
+-> bool:
+   
+> bool:
+    
+ bool:
+     
+bool:
+      
+ool:
+       
+ol:
+        
+        # Do
+
+
+    def up
+
+    def upd
+ def update(
+
+        # D
+s):
+        
+        # Ca
+       # Cal
+ dictionary 
+
+        # C
+] = None) ->
+ = None) -> 
+y:
+         
+
+        # I
+        # If
+       # If 
+(self) -> No
+self) -> Non
+elf) -> None
+lf) -> None:
+f) -> None:
+
+) -> None:
+ 
+ -> None:
+  
+-> None:
+   
+> None:
+    
+   return le
+  return len
+ return len(
+return len(s
+eturn len(se
+turn len(sel
+urn len(self
+rn len(self.
+
+
+    def cl
+
+    def cle
+    def clea
+   def clear
+cache.clear(
+ache.clear()
+che.clear()
+
+he.clear()
+
+
+e.clear()
+
+ 
+.clear()
+
+  
+clear()
+
+   
+lear()
+
+    
+ear()
+
+    d
+ar()
+
+    de
+r()
+
+    def
+()
+
+    def 
+)
+
+    def _
+
+    def __l
+    def __le
+   def __len
+  def __len_
+ def __len__
+def __len__(
+ef __len__(s
+f __len__(se
+ __len__(sel
+__len__(self
+_len__(self)
+    def __it
+   def __ite
+  def __iter
+ def __iter_
+def __iter__
+ef __iter__(
+f __iter__(s
+ __iter__(se
+__iter__(sel
+_iter__(self
+iter__(self)
+ter__(self) 
+er__(self) -
+r__(self) ->
+__(self) -> 
+_(self) -> I
+(self) -> It
+self) -> Ite
+elf) -> Iter
+lf) -> Itera
+f) -> Iterat
+) -> Iterato
+ -> Iterator
+-> Iterator[
+        if s
+       if se
+      if sel
+     if self
+    if self.
+      # If t
+     # If th
+    # If the
+   # If the 
+    return t
+table
+
+    d
+able
+
+    de
+ble
+
+    def
+le
+
+    def 
+table(self, 
+      self.c
+===============================
+No similarities found between table.py and version.py (k-tail length: 12).
+No similarities found between utils.py and version.py (k-tail length: 12).
