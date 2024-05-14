@@ -5,3 +5,4 @@ mypy
 pandas
 boto3
 pytest
+pytest-cov
