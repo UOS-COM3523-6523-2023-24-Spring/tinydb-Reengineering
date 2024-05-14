@@ -1,0 +1,6 @@
+sqlalchemy
+numpy
+flask
+mypy
+pandas
+boto3
