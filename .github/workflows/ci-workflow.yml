@@ -39,7 +39,7 @@ jobs:
         pytest --mypy -m mypy tinydb tests
 
     - name: Verify dist package format
-      if: ${{ matrix.python-version == '3.10' }}
+      if: ${{ matrix.python-version == '3.12' }}
       run: |
         poetry build
         twine check dist/*
