@@ -25,8 +25,9 @@ Usage example:
 """
 
 from .queries import Query, where
-from .storages import Storage, JSONStorage
+from .storages import Storage, JSONStorage, MemoryStorage
 from .database import TinyDB
 from .version import __version__
+from .middlewares import CachingMiddleware
 
 __all__ = ('TinyDB', 'Storage', 'JSONStorage', 'Query', 'where')
