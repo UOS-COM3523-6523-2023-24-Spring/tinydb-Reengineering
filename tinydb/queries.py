@@ -95,7 +95,7 @@ class QueryInstance:
         # We calculate the query hash by using the ``hashval`` object which
         # describes this query uniquely, so we can calculate a stable hash
         # value by simply hashing it
-        return hash(self._hash)
+        return hash(tuple(self._hash))
 
     def __repr__(self):
         return 'QueryImpl{}'.format(self._hash)
@@ -183,7 +183,7 @@ class Query(QueryInstance):
         return '{}()'.format(type(self).__name__)
 
     def __hash__(self):
-        return super().__hash__()
+        hash(tuple(self._hash))
 
     def __getattr__(self, item: str):
         # Generate a new query object with the new query path

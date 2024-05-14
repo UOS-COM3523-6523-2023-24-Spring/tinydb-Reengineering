@@ -56,7 +56,7 @@ def test_eq():
     assert not query({'value': 2})
     assert hash(query)
 
-    query = Query().value == [0, 1]
+    query = Query().value == tuple([0, 1])
     assert query({'value': [0, 1]})
     assert not query({'value': [0, 1, 2]})
     assert hash(query)
@@ -69,7 +69,7 @@ def test_ne():
     assert not query({'value': 1})
     assert hash(query)
 
-    query = Query().value != [0, 1]
+    query = Query().value != tuple([0, 1])
     assert query({'value': [0, 1, 2]})
     assert not query({'value': [0, 1]})
     assert hash(query)

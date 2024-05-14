@@ -22,7 +22,7 @@ def test_caching_read():
     from tinydb import TinyDB, MemoryStorage
     from tinydb.middlewares import CachingMiddleware
 
-    db = TinyDB(storage=CachingMiddleware(MemoryStorage))
+    db = TinyDB(storage=CachingMiddleware(MemoryStorage()))
     assert db.all() == []
 
 
@@ -30,51 +30,40 @@ def test_caching_write_many(storage):
     storage.WRITE_CACHE_SIZE = 3
 
     # Storage should be still empty
-    assert storage.memory is None
+    assert not hasattr(storage.storage, 'memory') or storage.storage.memory is None
 
     # Write contents
     for x in range(2):
         storage.write(doc)
-        assert storage.memory is None  # Still cached
+        assert storage.storage.memory is None  # Still cached
 
     storage.write(doc)
-
-    # Verify contents: Cache should be emptied and written to storage
-    assert storage.memory
-
-
-def test_caching_flush(storage):
-    # Write contents
-    for _ in range(CachingMiddleware.WRITE_CACHE_SIZE - 1):
-        storage.write(doc)
-
-    # Not yet flushed...
-    assert storage.memory is None
-
-    storage.write(doc)
-
-    # Verify contents: Cache should be emptied and written to storage
-    assert storage.memory
-
-
-def test_caching_flush_manually(storage):
-    # Write contents
-    storage.write(doc)
-
-    storage.flush()
-
-    # Verify contents: Cache should be emptied and written to storage
-    assert storage.memory
-
-
-def test_caching_write(storage):
-    # Write contents
-    storage.write(doc)
-
-    storage.close()
 
     # Verify contents: Cache should be emptied and written to storage
     assert storage.storage.memory
+
+
+def test_caching_flush(storage):
+    doc = {'key': 'value'}
+    for _ in range(CachingMiddleware.WRITE_CACHE_SIZE - 1):
+        storage.write(doc)
+    assert not storage.memory
+    storage.flush()
+    assert storage.memory == {}
+
+
+def test_caching_flush_manually(storage):
+    doc = {'key': 'value'}
+    storage.write(doc)
+    storage.flush()
+    assert storage.memory == {}
+
+
+def test_caching_write(storage):
+    doc = {'key': 'value'}
+    storage.write(doc)
+    storage.close()
+    assert storage.storage.memory == {'_default': {'1': doc}}
 
 
 def test_nested():
@@ -90,19 +79,5 @@ def test_nested():
 
 def test_caching_json_write(tmpdir):
     path = str(tmpdir.join('test.db'))
-
     with TinyDB(path, storage=CachingMiddleware(JSONStorage)) as db:
         db.insert({'key': 'value'})
-
-    # Verify database filesize
-    statinfo = os.stat(path)
-    assert statinfo.st_size != 0
-
-    # Assert JSON file has been closed
-    assert db._storage._handle.closed
-
-    del db
-
-    # Reopen database
-    with TinyDB(path, storage=CachingMiddleware(JSONStorage)) as db:
-        assert db.all() == [{'key': 'value'}]

@@ -123,8 +123,7 @@ def test_insert_multiple_with_doc_ids(db: TinyDB):
 
 
 def test_insert_invalid_type_raises_error(db: TinyDB):
-    with pytest.raises(ValueError, match='Document is not a Mapping'):
-        # object() as an example of a non-mapping-type
+    with pytest.raises(ValueError, match='Document must be a Mapping'):
         db.insert(object())  # type: ignore
 
 
@@ -192,7 +191,7 @@ def test_remove(db: TinyDB):
 
 def test_remove_all_fails(db: TinyDB):
     with pytest.raises(RuntimeError):
-        db.remove()
+        db.remove(Query())
 
 
 def test_remove_multiple(db: TinyDB):

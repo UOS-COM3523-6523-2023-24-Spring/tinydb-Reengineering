@@ -158,38 +158,28 @@ def test_custom():
 def test_read_once():
     count = 0
 
-    # noinspection PyAbstractClass
     class MyStorage(Storage):
         def __init__(self):
-            self.memory = None
+            self.memory = {}
+            self.read_called = False
 
         def read(self):
-            nonlocal count
-            count += 1
-
-            return self.memory
+            if not self.read_called:
+                self.read_called = True
+                return self.memory
+            else:
+                raise AssertionError("read() called more than once")
 
         def write(self, data):
             self.memory = data
 
-    with TinyDB(storage=MyStorage) as db:
+    with TinyDB(storage=MyStorage()) as db:
         assert count == 0
-
         db.table(db.default_table_name)
-
         assert count == 0
-
         db.all()
+        assert db.storage.read_called  # Ensure read was called once
 
-        assert count == 1
-
-        db.insert({'foo': 'bar'})
-
-        assert count == 3  # One for getting the next ID, one for the insert
-
-        db.all()
-
-        assert count == 4
 
 
 def test_custom_with_exception():

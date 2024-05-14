@@ -163,13 +163,13 @@ class MemoryStorage(Storage):
     """
 
     def __init__(self):
-        self.storage = {}
+        self.memory = {}
 
     def read(self):
-        return self.storage
+        return self.memory
 
     def write(self, data):
-        self.storage = data
+        self.memory = data
 
     # def __init__(self):
     #     """

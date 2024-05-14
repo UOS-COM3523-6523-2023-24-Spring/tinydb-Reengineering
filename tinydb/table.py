@@ -962,3 +962,17 @@ class Table:
         self._storage.write(tables)
         self.clear_cache()
         return updated_ids
+
+    def update_multiple(self, updates):
+        for fields, cond in updates:
+            self.update(fields, cond)
+
+    def upsert(self, document, cond):
+        if not isinstance(document, Document):
+            raise ValueError("Document must be an instance of Document class")
+        docs = self.search(cond)
+        if docs:
+            for doc in docs:
+                self.update(document, doc_id=doc.doc_id)
+        else:
+            self.insert(document)
