@@ -19,6 +19,9 @@ def test_caching(storage):
 
 
 def test_caching_read():
+    from tinydb import TinyDB, MemoryStorage
+    from tinydb.middlewares import CachingMiddleware
+
     db = TinyDB(storage=CachingMiddleware(MemoryStorage))
     assert db.all() == []
 
