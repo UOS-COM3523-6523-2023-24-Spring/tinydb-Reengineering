@@ -1,6 +1,6 @@
 def get_k_tail(text, k):
     """
-    从文本中获取长度为 k 的后缀列表
+    Gets a list of suffixes of length k from the text
     """
     tails = []
     for i in range(len(text) - k + 1):
@@ -11,7 +11,7 @@ def get_k_tail(text, k):
 
 def find_similarities(file1_path, file2_path, k):
     """
-    查找两个文件中的相似后缀
+    Find similar suffixes in two files
     """
     with open(file1_path, 'r') as file1:
         content1 = file1.read()
